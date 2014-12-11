@@ -1,8 +1,14 @@
 "首先引入包管理插件需要暂时关闭filetype
+set nocompatible
 filetype off
-call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+Plugin 'kchmck/vim-coffee-script'
+
+syntax enable
+filetype plugin indent on
 
 if has('win32')
     source $VIMRUNTIME/vimrc_example.vim
@@ -132,3 +138,4 @@ nmap F  :call EasyMotion#WB(0, 1)<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 
 :set cc=80
+
