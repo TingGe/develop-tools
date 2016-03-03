@@ -8,7 +8,7 @@ Linux || Mac || Windows 各平台可用工具
 - 团队协作：Github、Slack、GitLab、Confluence、Redmine、Mantis
 - 文档：Haroopad、百度脑图、XMind、Mindjet MindManager、MS Office、Axure
 - 工具：Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可)、Term2
-- PC Web调试：Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、IE、Fiddler、Wireshark
+- PC Web调试：Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark
 - 移动互联网调试：Safari、Chrome、QQ浏览器、UC浏览器、MIHTool、HttpWatch
 - 开发规范：RESTful API
 
@@ -34,6 +34,7 @@ Linux || Mac || Windows 各平台可用工具
 
 - 文档：XMLmind_XML_Editor
 - 工具：Babun、TortoiseSVN、Ant、XAMPP和Tomcat
+- PC Web调试：IE、Fiddler、Wireshark
 
 ## 参见
  1. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
