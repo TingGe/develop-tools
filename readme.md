@@ -34,7 +34,7 @@ Linux || Mac || Windows 各平台可用工具
 
 - 文档：XMLmind_XML_Editor
 - 工具：Babun、TortoiseSVN、Ant、XAMPP和Tomcat
-- PC Web调试：IE、Fiddler、Wireshark
+- PC Web调试：IE、Fiddler
 
 ## 参见
  1. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
