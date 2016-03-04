@@ -1,0 +1,10 @@
+.project
+*.DS_store
+.settings
+*~
+*.diff
+*.patch
+/*.html
+.idea
+node_modules
+bower_components
