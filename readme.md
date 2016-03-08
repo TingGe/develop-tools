@@ -19,6 +19,7 @@ Linux || Mac || Windows 各平台可用工具
 | Web前端UI框架 | BootStrap |
 | 数据可视化 | D3.js、HighCharts |
 | MV＊ | Chaplin、Angular、React、Vue、Avalon |
+| 轻量级数据库 | NeDB、LinvoDB、LokiJS、LokiJS |
 | DOM操作 | JQuery |
 | 前端模版 |Handlebars |
 | 服务器端语言 | Java、PHP |
@@ -30,7 +31,6 @@ Linux || Mac || Windows 各平台可用工具
 | 开发工具 | Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可)、Term2 |
 | 静态Web服务器 | http-server |
 | 抓包和本地替换Web调试 | Anyproxy |
-| 嵌入式数据库 | NeDB |
 | PC Web调试 | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
 | WebView和浏览器调试 | DebugGap |
 
