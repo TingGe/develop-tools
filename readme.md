@@ -5,6 +5,7 @@ Linux || Mac || Windows 各平台可用工具
 
 ## 通用
 
+- 团队管理：PMP、Scrum、XP
 - 团队协作：Github、Slack、GitLab、Confluence、Redmine、Mantis
 - 文档：Haroopad、百度脑图、XMind、Mindjet MindManager、MS Office、Axure
 - 开发规范：RESTful API
@@ -14,11 +15,9 @@ Linux || Mac || Windows 各平台可用工具
 | 分类 | 内容 |
 |--------|--------|
 | 开发语言 | JavaScript、CoffeeScript、Html、CSS、Markdown |
-| 构建工具 | Grunt、Brunch、Gulp、Webpack |
-| 包管理 | NPM、Bower |
 | Web前端UI框架 | BootStrap |
 | 数据可视化 | D3.js、HighCharts |
-| MV＊ | Chaplin、Angular、React、Vue、Avalon |
+| MV＊ | Chaplin、Backbone、Angular、React、Vue、Avalon |
 | DOM操作 | JQuery |
 | 前端模版 |Handlebars |
 | 服务器端语言 | Java、PHP |
@@ -28,6 +27,9 @@ Linux || Mac || Windows 各平台可用工具
 | 分类 | 内容 |
 |--------|--------|
 | 开发工具 | Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可)、Term2 |
+| 构建工具 | Grunt、Brunch、Gulp、Webpack |
+| 包管理 | NPM、Bower |
+| 自动化测试 | Mocha、Chai、Nightmare |
 | 静态Web服务器 | http-server |
 | 抓包和本地替换Web调试 | Anyproxy |
 | 嵌入式数据库 | NeDB |
@@ -42,7 +44,7 @@ Linux || Mac || Windows 各平台可用工具
 ## Windows系
 
 - 文档：XMLmind_XML_Editor
-- 工具：Babun、TortoiseSVN、Ant、XAMPP和Tomcat
+- 工具：Babun
 - PC Web调试：IE、Fiddler
 - Android移动页调试： UC浏览器（参见附录：“UC浏览器开发者中心”）、微信WebView（参见附录：“微信调试工具”）
 
@@ -56,5 +58,6 @@ Linux || Mac || Windows 各平台可用工具
  7. [DebugGap](http://www.debuggap.com/)
  8. [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
  9. [微信调试工具](http://blog.qqbrowser.cc/)
+ 10. [Nightmare](http://www.nightmarejs.org/)
 
 
