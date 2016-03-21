@@ -5,7 +5,7 @@ Linux || Mac || Windows 各平台可用工具
 
 ## 通用
 
-- 团队管理：PMP、Scrum、XP
+- 项目管理：PMP、Scrum、XP
 - 团队协作：Github、Slack、GitLab、Confluence、Redmine、Mantis
 - 文档：Haroopad、百度脑图、XMind、Mindjet MindManager、MS Office、Axure
 - 开发规范：RESTful API
