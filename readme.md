@@ -13,7 +13,7 @@
 
 - 团队协作：Github、GitLab
 - 文档：Typora、Evernote、XMind、Mindjet MindManager、MS Office、Axure
-- 开发规范：RESTful API
+- 开发规范：RESTful API、语义化版本
 - 移动测试缺陷发现和管理：Bugtags、Fabric
 
 ### 技术
@@ -27,6 +27,14 @@
 | DOM操作     | JQuery                                   |
 | 前端模版      | Handlebars                               |
 | 服务器端语言    | Java、PHP                                 |
+
+#### 技术栈
+
+|      |      |
+| ---- | ---- |
+|      |      |
+|      |      |
+|      |      |
 
 ### 工具
 
@@ -60,14 +68,16 @@
  2. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
  3. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
  4. [HackPad](https://hackpad.com/)
- 5. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
- 6. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
- 7. [http-server](https://github.com/indexzero/http-server)
- 8. [Anyproxy](https://github.com/alibaba/anyproxy)
- 9. [NeDB](https://github.com/louischatriot/nedb)
- 10. [DebugGap](http://www.debuggap.com/)
- 11. [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
- 12. [微信调试工具](http://blog.qqbrowser.cc/)
- 13. [Nightmare](http://www.nightmarejs.org/)
- 14. [Bugtags](https://www.bugtags.com/)
- 15. [Fabric](https://get.fabric.io/)
+ 5. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
+ 6. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+ 7. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+ 8. [http-server](https://github.com/indexzero/http-server)
+ 9. [Anyproxy](https://github.com/alibaba/anyproxy)
+ 10. [NeDB](https://github.com/louischatriot/nedb)
+ 11. [DebugGap](http://www.debuggap.com/)
+ 12. [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
+ 13. [微信调试工具](http://blog.qqbrowser.cc/)
+ 14. [Nightmare](http://www.nightmarejs.org/)
+ 15. [Bugtags](https://www.bugtags.com/)
+ 16. [Fabric](https://get.fabric.io/)
+
