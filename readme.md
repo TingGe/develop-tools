@@ -13,9 +13,10 @@
 
 大型应用的编程，一般会遇到性能墙和复杂度两类问题。
 - 代码仓库：Github、GitLab
-- 文档：Typora、Evernote、XMind、Mindjet MindManager、MS Office
+- 文档：Typora、Pandoc、Evernote、XMind、Mindjet MindManager、MS Office
 - 原型：Axure、Fuse
 - 规范：RESTful API、语义化版本
+- 图像处理：ImageMagick
 - 移动测试缺陷发现和管理：Bugtags、Fabric
 
 ### 技术
@@ -85,15 +86,16 @@ JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从
  5. [Fuse](https://www.fusetools.com/)
  6. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
  7. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
- 8. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
- 9. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
- 10. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
- 11. [http-server](https://github.com/indexzero/http-server)
- 12. [Anyproxy](https://github.com/alibaba/anyproxy)
- 13. [NeDB](https://github.com/louischatriot/nedb)
- 14. [DebugGap](http://www.debuggap.com/)
- 15. [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
- 16. [微信调试工具](http://blog.qqbrowser.cc/)
- 17. [Nightmare](http://www.nightmarejs.org/)
- 18. [Bugtags](https://www.bugtags.com/)
- 19. [Fabric](https://get.fabric.io/)
+ 8. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+ 9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+ 10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+ 11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+ 12. [http-server](https://github.com/indexzero/http-server)
+ 13. [Anyproxy](https://github.com/alibaba/anyproxy)
+ 14. [NeDB](https://github.com/louischatriot/nedb)
+ 15. [DebugGap](http://www.debuggap.com/)
+ 16. [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
+ 17. [微信调试工具](http://blog.qqbrowser.cc/)
+ 18. [Nightmare](http://www.nightmarejs.org/)
+ 19. [Bugtags](https://www.bugtags.com/)
+ 20. [Fabric](https://get.fabric.io/)
