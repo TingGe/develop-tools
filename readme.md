@@ -29,7 +29,7 @@
 | ---------- | ---------------------------------------- |
 | Web开发模式    | Web1.0的 JSP/PHP＋Service > 后端为主的MVC > Ajax的SPA > 前端为主的 MV＊ > Node 带来的全栈 |
 | Web前端      | JS ＋ CSS ＋ Html > Router + PageView + API |
-| JavaScript | “大教堂式”的YUI/Ext  > “集市式”的jQuery/Prototype > "探索治理"的Backbone/Angular/Meteor/React |
+| JavaScript | “大教堂式”的YUI/Ext  > “集市式”的jQuery/Prototype > "探索治理"的（MVC Backbone）/（MVVM Angular）/（同构 Meteor）/ (同构 React） |
 |            | 基础类库完善 > 标准，关注 Web 性能 > HTML5 > 响应式开发，工程化 > 百花齐放 >前端工业化生产 |
 
 #### JavaScript 技术栈
@@ -40,7 +40,7 @@ JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从
 
 - Web前端：React + Redux ＋ React-router
 - 服务器端：NodeJS、Express、Gulp
-- 浏览器插件和扩展：[可参见](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
+- 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
 
 
 - 桌面应用：Electron
