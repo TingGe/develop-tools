@@ -40,7 +40,7 @@ JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从
 
 - Web前端：React + Redux ＋ React-router
 - 服务器端：NodeJS、Express、Gulp
-- 浏览器插件和扩展：
+- 浏览器插件和扩展：[可参见](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
 
 
 - 桌面应用：Electron
