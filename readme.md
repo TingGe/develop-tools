@@ -42,15 +42,10 @@ JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从
 - 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)
 - 服务器端：NodeJS、Express
 - 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
-
-
-
-
 - 桌面应用：Electron
 - 移动端：React Native、Hybrid App（Cordova + AngularJS + ionic）
 - 游戏：Cocos2d-js、Unity3D、Pomelo、Bearcat
 - 物联网：Cylon、Arduino
-
 
 
 | 分类     | 内容                                       |
