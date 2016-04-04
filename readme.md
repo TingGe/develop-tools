@@ -39,7 +39,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。
 
 JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。总结，JavaScript 成熟的应用空间在前端、轻量级后端和游戏。
 
-- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)
+- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)
 - 服务器端：NodeJS、Express
 - 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
 - 桌面应用：Electron
