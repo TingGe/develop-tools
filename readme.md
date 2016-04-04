@@ -39,7 +39,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。
 
 JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。总结，JavaScript 成熟的应用空间在前端、轻量级后端和游戏。
 
-- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)、
+- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)
 - 服务器端：NodeJS、Express
 - 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
 
@@ -94,15 +94,14 @@ JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从
 
 ## 附录
 
- 1. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
- 2. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
- 3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
- 4. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
- 5. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
- 6. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
- 7. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
- 8. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
- 9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
- 10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
- 11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
-
+1. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
+2. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
+3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
+4. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+5. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
+6. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
+7. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+8. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
