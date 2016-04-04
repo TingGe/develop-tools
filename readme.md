@@ -11,12 +11,13 @@
 
 ## 研发
 
-大型应用的编程，一般会遇到性能墙和复杂度两类问题。
+大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 - 代码仓库：Github、GitLab
 - 文档：Typora、Pandoc、Evernote、XMind、Mindjet MindManager、MS Office
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：RESTful API、语义化版本
 - 图像处理：ImageMagick
+- 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Trace](https://trace.risingstack.com/)
 - 移动测试缺陷发现和管理：[Bugtags](https://www.bugtags.com/)、[Fabric](https://get.fabric.io/)
 
 ### 技术
@@ -36,17 +37,19 @@
 
 JavaScript 在经历 端的融合、栈的融合阶段。
 
-JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。总结，JavaScript 成熟的应用空间在前端、轻量级后端和游戏。
+JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。总结，JavaScript 成熟的应用空间在前端、轻量级后端和游戏。
 
-- Web前端：React + Redux ＋ React-router
-- 服务器端：NodeJS、Express、Gulp
+- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)、
+- 服务器端：NodeJS、Express
 - 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
+
+
 
 
 - 桌面应用：Electron
 - 移动端：React Native、Hybrid App（Cordova + AngularJS + ionic）
 - 游戏：Cocos2d-js、Unity3D、Pomelo、Bearcat
-- 物联网：Cylon
+- 物联网：Cylon、Arduino
 
 
 
@@ -64,21 +67,22 @@ JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从
 
 > 软件构建的核心就是管理复杂度。
 
-| 分类            | 内容                                       |
-| ------------- | ---------------------------------------- |
-| 开发工具          | Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可) |
-| 构建工具          | Grunt、Brunch、Gulp、Webpack                |
-| 包管理           | NPM、Bower                                |
-| 自动化测试         | Mocha、Chai、[Nightmare](http://www.nightmarejs.org/) |
-| 静态Web服务器      | [http-server](https://github.com/indexzero/http-server) |
-| 抓包和本地替换Web调试  | [Anyproxy](https://github.com/alibaba/anyproxy) |
-| 嵌入式数据库        | [NeDB](https://github.com/louischatriot/nedb) |
-| PC Web调试      | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
-| WebView和浏览器调试 | [DebugGap](http://www.debuggap.com/)     |
+| 分类              | 内容                                       |
+| --------------- | ---------------------------------------- |
+| 开发工具            | Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可) |
+| JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
+| 构建工具            | Grunt、Brunch、Gulp、Webpack                |
+| 包管理             | NPM、Bower                                |
+| 自动化测试           | Mocha、Chai、[Nightmare](http://www.nightmarejs.org/) |
+| 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
+| 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
+| 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
+| PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
+| WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
 
 ### Mac或Linux系
 
-- 工具：Term2、Vim、Git、Git flow、Term2、Oh my zsh、Tmux、Nginx
+- 工具：Term2、Vim、Git、Git flow、Oh my zsh、Tmux、Nginx
 - iOS移动页调试： Safari、Chrome、QQ浏览器、MIHTool、HttpWatch
 
 ### Windows系
@@ -101,3 +105,4 @@ JavaScript 可以做很多事情：从前端到后端，从桌面到移动，从
  9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
  10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
  11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+
