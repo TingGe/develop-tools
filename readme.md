@@ -22,33 +22,7 @@
 
 ### 技术
 
-#### Web开发模式和前端演变
-
-2009年至今（我08年开始接触Web开发，之前只能找老前辈了），Web开发模式和前端演变。
-
-| 领域         | 演变过程                                     |
-| ---------- | ---------------------------------------- |
-| Web开发模式    | Web1.0的 JSP/PHP＋Service > 后端为主的MVC > Ajax的SPA > 前端为主的 MV＊ > Node 带来的全栈 |
-| Web前端      | JS ＋ CSS ＋ Html > Router + PageView + API |
-| JavaScript | “大教堂式”的YUI/Ext  > “集市式”的jQuery/Prototype > "探索治理"的（MVC Backbone）/（MVVM Angular）/（同构 Meteor）/ (同构 React） |
-|            | 基础类库完善 > 标准，关注 Web 性能 > HTML5 > 响应式开发，工程化 > 百花齐放 >前端工业化生产 |
-
-#### JavaScript 技术栈
-
-JavaScript 在经历 端的融合、栈的融合阶段。
-
-JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。总结，JavaScript 成熟的应用空间在前端、轻量级后端和游戏。
-
-- 全栈 JavaScript：[React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/)
-- 服务器端：NodeJS、Express
-- 浏览器插件和扩展：[Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md)
-- 桌面应用：Electron
-- 移动端：React Native、Hybrid App（Cordova + AngularJS + ionic）
-- 游戏：Cocos2d-js、Unity3D、Pomelo、Bearcat
-- 物联网：Cylon、Arduino
-
-
-| 分类     | 内容                                       |
+| 类别     | 内容                                       |
 | ------ | ---------------------------------------- |
 | 开发语言   | JavaScript/NodeJS、CoffeeScript、Html、CSS、Markdown |
 | UI框架   | BootStrap、AmazeUI                        |
@@ -57,6 +31,31 @@ JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从
 | DOM操作  | JQuery、Zepto                             |
 | 前端模版   | Handlebars                               |
 | 服务器端语言 | Java、PHP                                 |
+
+#### Web开发模式、前端和JavaScript演变
+
+2009年至今
+
+|            | 演变过程                                     |
+| ---------- | ---------------------------------------- |
+| Web开发模式    | Web1.0的 JSP/PHP＋Service > 后端为主的MVC > Ajax的SPA > 前端为主的 MV＊ > Node 带来的全栈 |
+| Web前端      | JS ＋ CSS ＋ Html > Router + PageView + API |
+| JavaScript | “大教堂式”的YUI/Ext  > “集市式”的jQuery/Prototype > "探索治理"的（MVC Backbone）/（MVVM Angular）/（同构 Meteor）/ (同构 React） |
+|            | 基础类库完善 > 标准，关注 Web 性能 > HTML5 > 响应式开发，工程化 > 百花齐放 >前端工业化生产 |
+
+#### JavaScript应用领域和技术栈 
+
+JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
+
+| 应用领域          | 技术栈                                      |
+| ------------- | ---------------------------------------- |
+| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) |
+| 服务器端          | NodeJS                                   |
+| 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
+| 桌面应用          | Electron                                 |
+| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
+| 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
+| 物联网           | Cylon、Arduino                            |
 
 ### 工具
 
