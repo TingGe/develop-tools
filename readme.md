@@ -15,7 +15,7 @@
 - 代码仓库：Github、GitLab
 - 文档：Typora、Pandoc、Evernote、XMind、Mindjet MindManager、MS Office
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
-- 规范：RESTful API、语义化版本
+- 规范：RESTful API、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
 - 图像处理：ImageMagick
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Trace](https://trace.risingstack.com/)
 - 移动测试缺陷发现和管理：[Bugtags](https://www.bugtags.com/)、[Fabric](https://get.fabric.io/)
@@ -69,6 +69,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 包管理             | NPM、Bower                                |
 | 自动化测试           | Mocha、Chai、[Nightmare](http://www.nightmarejs.org/) |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
+| 静态api           | [json-server](https://github.com/typicode/json-server) |
 | 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
 | 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
 | PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
@@ -93,9 +94,8 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
 4. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
 5. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
-6. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
-7. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
-8. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+6. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+7. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+8. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+9. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+10. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
