@@ -5,7 +5,7 @@
 ## 通用
 
 团队协作的核心是项目管理，无论对于程序开发还是媒体团队都是适用的，其他工具需要配合项目管理平台来选择。
-- 项目管理方式：PMP、Scrum、XP
+- 项目管理方式：Agile Project Management（Scrum、XP）、PMP
 - 协调团队间工作：Redmine(需求过程管理) + Confluence(需求内容管理)、Slack、Gantter、Mantis
 - 会议与头脑风暴：MindMup、[HackPad](https://hackpad.com/)、百度脑图
 
