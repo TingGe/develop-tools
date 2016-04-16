@@ -4,16 +4,18 @@
 
 ## 通用
 
-团队协作的核心是项目管理，无论对于程序开发还是媒体团队都是适用的，其他工具需要配合项目管理平台来选择。
-- 项目管理方式：Agile Project Management（Scrum、XP）、PMP
-- 协调团队间工作：Redmine(需求过程管理) + Confluence(需求内容管理)、Slack、Gantter、Mantis
-- 会议与头脑风暴：MindMup、[HackPad](https://hackpad.com/)、百度脑图
+> 团队协作的核心是项目管理，无论对于程序开发还是媒体团队都是适用的，其他工具需要配合项目管理平台来选择。
+
+- 项目管理方式：Agile Project Management（Scrum、XP、Lean）、PMP
+- 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine(需求过程管理) + Confluence(需求内容管理)、Mantis
+- 文档：[Typora](http://typora.io)、Evernote、MS Office
+- 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
 
 ## 研发
 
-大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
+> 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
+
 - 代码仓库：Github、GitLab
-- 文档：Typora、Pandoc、Evernote、XMind、Mindjet MindManager、MS Office
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：RESTful API、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
 - 图像处理：ImageMagick
@@ -57,13 +59,104 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | Cylon、Arduino                            |
 
+### 模式
+
+> 模式，帮助你设计API、搭建代码架构、优化性能
+
+1. API模式，帮助我们为函数给出更干净的接口，包括
+
+   | 模式   | 说明                     |
+   | ---- | ---------------------- |
+   | 回调模式 | 传入一个函数作为参数             |
+   | 配置对象 | 帮助保持函数的参数数量可控          |
+   | 返回函数 | 函数的返回值是另一个函数           |
+   | 柯里化  | 新函数在已有函数的基础上再加上一部分参数构成 |
+
+2. 初始化模式，帮助我们用一种干净的、结构化的方法来做一些初始化工作，通过一些临时变量来保证不污染全局命名空间。包括：
+
+   | 模式      | 说明                                |
+   | ------- | --------------------------------- |
+   | 即时函数    | 当它们被定义后立即执行                       |
+   | 对象即时初始化 | 初始化工作被放入一个匿名对象，这个对象提供一个可以立即被执行的方法 |
+   | 条件初始化   | 使分支代码只在初始化时执行一次，而不是在整个程序生命周期中反复执行 |
+
+3. 性能模式，帮助提高代码执行速度，包括：
+
+   | 模式    | 说明                        |
+   | ----- | ------------------------- |
+   | 记忆模式  | 利用函数的属性，使已经计算过的值不用再次计算    |
+   | 重定义函数 | 重写自身的函数体，使第二次及后续的调用做更少的工作 |
+
+4. 对象创建模式，包括：
+
+   | 模式              | 说明                    |
+   | --------------- | --------------------- |
+   | 命名空间模式 ＋ 依赖声明模式 | 保持全局空间干净、帮助组织代码       |
+   | 沙箱模式            | 唯一的全局变量是一个构造函数        |
+   | 链式调用模式          |                       |
+   | method()方法      | 将JavaScript变得像基于类的语法糖 |
+
+5. 代码复用模式。
+
+   > “优先使用对象创建而不是类继承”
+
+   | 模式     | 说明                              |
+   | ------ | ------------------------------- |
+   | 现代继承模式 | Object.create()、借用方法、绑定、复制属性、混元 |
+   | 类式继承   | Klass                           |
+
+6. 设计模式，包括：
+
+   | 模式                       | 说明                                       |
+   | ------------------------ | ---------------------------------------- |
+   | 单例模式                     | 使用`new`、通过同一个构造函数来创建多个对象时，得到同一个对象的不同引用   |
+   | 工厂模式                     | 在运行时通过指定字符串来创建指定类型对象的方法                  |
+   | 遍历模式                     | 提供一种简单的API（hasNext()、next()）来访问复杂的有序聚合数据的每个元素 |
+   | 装饰模式                     | 在运行时动态地给一个对象添加一些额外功能                     |
+   | 策略模式                     | API一致情况下，允许在运行时选择策略                      |
+   | 外观模式                     | 包装通用的或者设计很差的方法来提供一个更方便的API               |
+   | 代理模式                     | 一个对象充当了另一个对象的接口的角色                       |
+   | 中介者模式                    | 各彼此合作的对象通过一个`mediator`（中介者）对象通讯          |
+   | 观察者模式（“订阅者/发布者”或“自定义事件”） | 创建“可被观察的对象”使它在某个事件发生时通知订阅者的方式            |
+
+7. DOM和浏览器中的模式，包括：
+
+   > 遵循分离和渐进增强的思想
+
+   | 类别           | 模式          | 说明                             |
+   | ------------ | ----------- | ------------------------------ |
+   | DOM编程        | DOM访问       | 避免在循环中访问DOM                    |
+   |              |             | 将DOM引用赋给本地变量，然后操作本地变量          |
+   |              |             | 当可能的时候使用selectors API          |
+   |              |             | 遍历HTML collections时缓存length    |
+   |              | DOM操作       | 使用文档碎片                         |
+   |              |             | “cloneNode父节点＋修改＋replaceChild” |
+   | 事件           | 事件处理        |                                |
+   |              | 事件委托        |                                |
+   | 长时间运行的脚本     |             | setTimeout()                   |
+   |              |             | Web Workers                    |
+   | 远程脚本编程       |             | XMLHttpRequest                 |
+   |              |             | JSONP                          |
+   |              |             | 框架（frame）和图片信标(image beacon)   |
+   | 部署JavaScript | 合并脚本        |                                |
+   |              | 压缩 + gzip   |                                |
+   |              | 使用CDN + 缓存头 |                                |
+   |              | 加载策略        | HTML5中更好的`async`               |
+   |              | 引入页面脚本的模式   | `<script>`元素的位置                |
+   |              |             | HTTP分块                         |
+   |              |             | 动态script元素实现非阻塞下载              |
+   |              |             | 插入`<script>`元素                 |
+   |              | 减少初始化工作量    | 延迟加载                           |
+   |              |             | 按需加载                           |
+   |              |             | 预加载JavaScript                  |
+
 ### 工具
 
 > 软件构建的核心就是管理复杂度。
 
 | 分类              | 内容                                       |
 | --------------- | ---------------------------------------- |
-| 开发工具            | Atom(安装Config Import Export后，导入本仓库AtomBackups的json即可) |
+| 开发工具            | Atom(安装Config Import Export，导入本仓库AtomBackups的json即可) |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Grunt、Brunch、Gulp、Webpack                |
 | 包管理             | NPM、Bower                                |
@@ -95,8 +188,9 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 4. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
 5. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
 6. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
-7. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
-8. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-9. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+7. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
+8. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+9. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+10. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+11. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+12. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
