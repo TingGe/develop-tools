@@ -160,7 +160,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Grunt、Brunch、Gulp、Webpack                |
 | 包管理             | NPM、Bower                                |
-| 自动化测试           | Mocha、Chai、[Nightmare](http://www.nightmarejs.org/) |
+| 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[Nightmare](http://www.nightmarejs.org/) |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
 | 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
@@ -192,5 +192,8 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 8. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
 9. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
 10. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-11. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-12. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+11. [什么是phantomJS？](http://div.io/topic/1413)
+12. [牛咖-neocrawler nodejs 的爬虫系统](http://git.oschina.net/dreamidea/neocrawler)
+13. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+14. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+15. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
