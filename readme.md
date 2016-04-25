@@ -2,9 +2,11 @@
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
+![]()
+
 ## 通用
 
-> 团队协作的核心是项目管理，无论对于程序开发还是媒体团队都是适用的，其他工具需要配合项目管理平台来选择。
+> 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Lean）、PMP
 - 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine(需求过程管理) + Confluence(需求内容管理)、Mantis
@@ -36,7 +38,7 @@
 
 #### Web开发模式、前端和JavaScript演变
 
-2009年至今
+历史总是相似，2009年至今
 
 |            | 演变过程                                     |
 | ---------- | ---------------------------------------- |
@@ -113,7 +115,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    | 工厂模式                     | 在运行时通过指定字符串来创建指定类型对象的方法                  |
    | 遍历模式                     | 提供一种简单的API（hasNext()、next()）来访问复杂的有序聚合数据的每个元素 |
    | 装饰模式                     | 在运行时动态地给一个对象添加一些额外功能                     |
-   | 策略模式                     | API一致情况下，允许在运行时选择策略                      |
+   | 策略模式(对比 状态模式 异同)         | API一致情况下，允许在运行时选择策略                      |
    | 外观模式                     | 包装通用的或者设计很差的方法来提供一个更方便的API               |
    | 代理模式                     | 一个对象充当了另一个对象的接口的角色                       |
    | 中介者模式                    | 各彼此合作的对象通过一个`mediator`（中介者）对象通讯          |
@@ -150,6 +152,11 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    |              |             | 按需加载                           |
    |              |             | 预加载JavaScript                  |
 
+### 算法
+
+- 字符串比较
+- JS贪心解法
+
 ### 工具
 
 > 软件构建的核心就是管理复杂度。
@@ -183,16 +190,18 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 ## 附录
 
 1. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
-2. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
+2. [「2016码会」张一鸣：为何不赞同控制人力成本](https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649506988&idx=1&sn=926c4f3c79dd1d91a0b452bb889d1221)
 3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
-4. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
-5. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
-6. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
-7. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
-8. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
-9. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-10. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-11. [什么是phantomJS？](http://div.io/topic/1413)
-12. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-13. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-14. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+4. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
+5. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
+6. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+7. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
+8. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
+9. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+10. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+11. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+12. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+13. [什么是phantomJS？](http://div.io/topic/1413)
+14. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+15. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+16. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
