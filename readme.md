@@ -2,7 +2,9 @@
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
-![]()
+![https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png)
+
+*详见：「2016码会」张一鸣：为何不赞同控制人力成本*
 
 ## 通用
 
