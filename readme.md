@@ -36,30 +36,31 @@
 | 前端模版   | Handlebars                               |
 | 服务器端语言 | Java、PHP                                 |
 
-#### Web开发模式、前端和JavaScript演变
-
-历史总是相似，2009年至今
-
-|            | 演变过程                                     |
-| ---------- | ---------------------------------------- |
-| Web开发模式    | Web1.0的 JSP/PHP＋Service > 后端为主的MVC > Ajax的SPA > 前端为主的 MV＊ > Node 带来的全栈 |
-| Web前端      | JS ＋ CSS ＋ Html > Router + PageView + API |
-| JavaScript | “大教堂式”的YUI/Ext  > “集市式”的jQuery/Prototype > "探索治理"的（MVC Backbone）/（MVVM Angular）/（同构 Meteor）/ (同构 React） |
-|            | 基础类库完善 > 标准，关注 Web 性能 > HTML5 > 响应式开发，工程化 > 百花齐放 >前端工业化生产 |
-
 #### JavaScript应用领域和技术栈 
 
 JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
 
-| 应用领域          | 技术栈                                      |
-| ------------- | ---------------------------------------- |
-| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) |
-| 服务器端          | NodeJS                                   |
-| 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
-| 桌面应用          | Electron                                 |
-| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
-| 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
-| 物联网           | Cylon、Arduino                            |
+| 应用领域          | 技术栈                                      | JavaScript引擎 |
+| ------------- | ---------------------------------------- | ------------ |
+| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) | Web浏览器       |
+| 服务器端          | NodeJS                                   |              |
+| 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |              |
+| 桌面应用          | Electron                                 |              |
+| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |              |
+| 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |              |
+| 物联网           | Cylon、Arduino、                           |              |
+
+#### JavaScript 引擎
+
+| Browser, Headless Browser, or Runtime | JavaScript引擎                             |
+| ------------------------------------- | ---------------------------------------- |
+| Mozilla                               | [Spidermonkey](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey) |
+| Chrome                                | [V8](https://chromium.googlesource.com/v8/v8/) |
+| Safari                                | [JavaScriptCore](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore) |
+| IE and Edge                           | [Chakra](https://github.com/Microsoft/ChakraCore) |
+| PhantomJS                             | JavaScriptCore                           |
+| TrifleJS                              | V8                                       |
+| Node.js                               | V8                                       |
 
 ### 模式
 
@@ -166,7 +167,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 开发工具            | Atom(安装Config Import Export，导入本仓库AtomBackups的json即可) |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Grunt、Brunch、Gulp、Webpack                |
-| 包管理             | NPM、Bower                                |
+| 包管理             | NPM                                      |
 | 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[Nightmare](http://www.nightmarejs.org/) |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
