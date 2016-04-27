@@ -2,11 +2,15 @@
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
+## 管理
+
+> 公司成长业务增加，核心的关键是让优秀人才的密度超过业务复杂度的增加。
+
 ![https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png)
 
-*详见：「2016码会」张一鸣：为何不赞同控制人力成本*
+*详见：附录「2016码会」张一鸣：为何不赞同控制人力成本*
 
-## 通用
+## 团队协作
 
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
@@ -40,17 +44,17 @@
 
 #### JavaScript应用领域和技术栈 
 
-JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
+JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网、智能家居，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
 
-| 应用领域          | 技术栈                                      | JavaScript引擎 |
-| ------------- | ---------------------------------------- | ------------ |
-| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) | Web浏览器       |
-| 服务器端          | NodeJS                                   |              |
-| 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |              |
-| 桌面应用          | Electron                                 |              |
-| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |              |
-| 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |              |
-| 物联网           | Cylon、Arduino、                           |              |
+| 应用领域          | 技术栈                                      |
+| ------------- | ---------------------------------------- |
+| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) |
+| 服务器端          | NodeJS                                   |
+| 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
+| 桌面应用          | Electron                                 |
+| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
+| 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
+| 物联网           | Cylon、Arduino、                           |
 
 #### JavaScript 引擎
 
@@ -157,8 +161,19 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### 算法
 
-- 字符串比较
-- JS贪心解法
+- 字符串比较（利用对象属性、利用素数序列）
+- JS贪心解法（部分背包问题、找零问题）
+- 动态规划解法（0-1背包问题、计算斐波那契数列）
+- 递归解法(0-1背包问题、计算斐波那契数列、阶乘)
+- 使用矩阵(求公共字符串问题)
+- 迭代(计算斐波那契数列)
+- 邻接表(深度优先搜索和广度优先搜索)
+- 二叉树查找
+- 散列表(线性探测、判断字符串中出现次数最多的字符)
+- 双向链表
+- 优先队列
+- 栈(判断是否回文、实现十进制转其它进制、阶乘)
+- ​
 
 ### 工具
 
@@ -168,7 +183,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | --------------- | ---------------------------------------- |
 | 开发工具            | Atom(安装Config Import Export，导入本仓库AtomBackups的json即可) |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
-| 构建工具            | Grunt、Brunch、Gulp、Webpack                |
+| 构建工具            | Rollup、Webpack、Gulp、Grunt                |
 | 包管理             | NPM                                      |
 | 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[Nightmare](http://www.nightmarejs.org/) |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
@@ -177,6 +192,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
 | PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
 | WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
+| 部署              | [pm2](http://pm2.keymetrics.io/)         |
 
 ### Mac或Linux系
 
