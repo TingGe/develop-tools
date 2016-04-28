@@ -116,7 +116,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 6. 设计模式，包括：
 
-   ![设计模式六大原则](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png)
+   ![设计模式六大原则](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/2012110233.jpg)
 
    | 模式                       | 说明                                       | 遵循原则           |
    | ------------------------ | ---------------------------------------- | -------------- |
