@@ -54,7 +54,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 桌面应用          | Electron                                 |
 | 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
-| 物联网           | Cylon、Arduino、                           |
+| 物联网           | Cylon、Arduino、Tessel、Ruff                |
 
 #### JavaScript 引擎
 
@@ -154,31 +154,55 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    |              | 使用CDN + 缓存头 |                                |
    |              | 加载策略        | HTML5中更好的`async`               |
    |              | 引入页面脚本的模式   | `<script>`元素的位置                |
-   |              |             | HTTP分块                         |
+   |              |             | HTTP 分块                        |
    |              |             | 动态script元素实现非阻塞下载              |
    |              |             | 插入`<script>`元素                 |
    |              | 减少初始化工作量    | 延迟加载                           |
    |              |             | 按需加载                           |
-   |              |             | 预加载JavaScript                  |
+   |              |             | 预加载 JavaScript                 |
 
 ### 算法
 
-- 字符串比较（利用对象属性、利用素数序列）
-- JS贪心解法（部分背包问题、找零问题）
-- 动态规划解法（0-1背包问题、计算斐波那契数列）
+- 利用对象属性(字符串比较、带记忆的函数）
+
+- 利用素数序列(字符串比较）
+
+- JS贪心解法(部分背包问题、找零问题)
+
+- 动态规划解法(0-1背包问题、计算斐波那契数列)
+
 - 递归解法(0-1背包问题、计算斐波那契数列、阶乘)
+
 - 使用矩阵(求公共字符串问题)
+
 - 迭代(计算斐波那契数列)
-- 邻接表(深度优先搜索和广度优先搜索)
+
+- 图(“邻接表”，深度优先搜索和广度优先搜索)
+
 - 二叉树查找
+
 - 散列表(线性探测、判断字符串中出现次数最多的字符)
-- 链表(双向链表、单向链表)
-- 优先队列
+
+- 链表(双向链表、单向链表、已排序的双向链表)
+
+- 
+
+  ​
+
 - 栈(判断是否回文、实现十进制转其它进制、阶乘)
+
 - 模拟 Java 中 String 类的 hashCode 方法
+
 - 生成 UUID
+
 - 多数问题
+
 - 分治法(二分搜索、寻找数组中的最大和最小值)
+
+- 输出螺旋矩形算法
+
+- 随机打乱一维数组
+
 - ​
 
 ### 工具
@@ -187,7 +211,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 | 分类              | 内容                                       |
 | --------------- | ---------------------------------------- |
-| 开发工具            | Atom(安装Config Import Export，导入本仓库AtomBackups的json即可) |
+| 开发工具            | Atom (安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可) |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Rollup、Webpack、Gulp、Grunt                |
 | 包管理             | NPM                                      |
