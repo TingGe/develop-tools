@@ -15,7 +15,7 @@
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Lean）、PMP
-- 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine(需求过程管理) + Confluence(需求内容管理)、Mantis
+- 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine（需求过程管理） + Confluence（需求内容管理）、Mantis
 - 文档：[Typora](http://typora.io)、Evernote、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
 
@@ -42,13 +42,13 @@
 | 前端模版   | Handlebars                               |
 | 服务器端语言 | Java、PHP                                 |
 
-#### JavaScript应用领域和技术栈 
+#### JavaScript应用领域和技术栈
 
 JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网、智能家居，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
 
 | 应用领域          | 技术栈                                      |
 | ------------- | ---------------------------------------- |
-| 全栈 JavaScript | [React Starter Kit( Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync)](https://github.com/kriasoft/react-starter-kit)、[MEAN (Mongo, Express, Angular, Node)](http://mean.io/#!/) |
+| 全栈 JavaScript | [React Starter Kit（ Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack,Browsersync）](https://github.com/kriasoft/react-starter-kit)、[MEAN （Mongo, Express, Angular, Node）](http://mean.io/) |
 | 服务器端          | NodeJS                                   |
 | 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
 | 桌面应用          | Electron                                 |
@@ -103,16 +103,16 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    | 命名空间模式 ＋ 依赖声明模式 | 保持全局空间干净、帮助组织代码       |
    | 沙箱模式            | 唯一的全局变量是一个构造函数        |
    | 链式调用模式          |                       |
-   | method()方法      | 将JavaScript变得像基于类的语法糖 |
+   | method() 方法     | 将JavaScript变得像基于类的语法糖 |
 
 5. 代码复用模式。
 
    > “优先使用对象创建而不是类继承”
 
-   | 模式     | 说明                              |
-   | ------ | ------------------------------- |
-   | 现代继承模式 | Object.create()、借用方法、绑定、复制属性、混元 |
-   | 类式继承   | Klass                           |
+   | 模式     | 说明                               |
+   | ------ | -------------------------------- |
+   | 现代继承模式 | Object.create() 、借用方法、绑定、复制属性、混元 |
+   | 类式继承   | Klass                            |
 
 6. 设计模式，包括：
 
@@ -121,12 +121,12 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    | 模式                       | 说明                                       | 遵循原则           |
    | ------------------------ | ---------------------------------------- | -------------- |
    | 单例模式                     | 使用`new`、通过同一个构造函数来创建多个对象时，得到同一个对象的不同引用   |                |
-   | 工厂模式                     | 在运行时通过指定字符串来创建指定类型对象的方法                  | 开闭原则(OCP)      |
-   | 遍历模式                     | 提供一种简单的API（hasNext()、next()）来访问复杂的有序聚合数据的每个元素 |                |
+   | 工厂模式                     | 在运行时通过指定字符串来创建指定类型对象的方法                  | 开闭原则（OCP）      |
+   | 遍历模式                     | 提供一种简单的API（hasNext（）、next（））来访问复杂的有序聚合数据的每个元素 |                |
    | 装饰模式                     | 在运行时动态地给一个对象添加一些额外功能                     |                |
-   | 策略模式(对比 状态模式)            | API一致情况下，允许在运行时选择策略                      |                |
-   | 外观模式("门面模式")             | 包装通用的或者设计很差的方法来提供一个更方便的API               | 迪米特法则（LoD,LKP） |
-   | 代理模式(对比 适配器模式)           | 一个对象充当了另一个对象的接口的角色                       |                |
+   | 策略模式（对比 状态模式）            | API一致情况下，允许在运行时选择策略                      |                |
+   | 外观模式（"门面模式"）             | 包装通用的或者设计很差的方法来提供一个更方便的API               | 迪米特法则（LoD,LKP） |
+   | 代理模式（对比 适配器模式）           | 一个对象充当了另一个对象的接口的角色                       |                |
    | 中介者模式                    | 各彼此合作的对象通过一个`mediator`（中介者）对象通讯          |                |
    | 观察者模式（“订阅者/发布者”或“自定义事件”） | 创建“可被观察的对象”使它在某个事件发生时通知订阅者的方式            |                |
 
@@ -148,7 +148,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    |              |             | Web Workers                    |
    | 远程脚本编程       |             | XMLHttpRequest                 |
    |              |             | JSONP                          |
-   |              |             | 框架（frame）和图片信标(image beacon)   |
+   |              |             | 框架（frame）和图片信标（image beacon）   |
    | 部署JavaScript | 合并脚本        |                                |
    |              | 压缩 + gzip   |                                |
    |              | 使用CDN + 缓存头 |                                |
@@ -163,47 +163,51 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### 算法
 
-- 利用对象属性(字符串比较、带记忆的函数）
+- [利用对象属性](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/object_prop)（字符串比较、带记忆的函数）
 
-- 利用素数序列(字符串比较）
+- 贪心解法（[部分背包问题](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/knapsack)、[找零问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/greedymoney.html)）
 
-- JS贪心解法(部分背包问题、找零问题)
+- [动态规划解法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/dynamic_programming)（0-1背包问题、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/dynfib.js)）
 
-- 动态规划解法(0-1背包问题、计算斐波那契数列)
+- 递归解法（[0-1背包问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/recursive.html)、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)、阶乘）
 
-- 递归解法(0-1背包问题、计算斐波那契数列、阶乘)
+- [使用矩阵](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/findmaxsubstr.html)（求公共字符串问题）
 
-- 使用矩阵(求公共字符串问题)
+- 迭代（[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)）
 
-- 迭代(计算斐波那契数列)
-
-- 图(“邻接表”，深度优先搜索和广度优先搜索)
-
-- 二叉树查找
-
-- 散列表(线性探测、判断字符串中出现次数最多的字符)
-
-- 链表(双向链表、单向链表、已排序的双向链表)
+- 图（[“邻接表”，深度优先搜索和广度优先搜索](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/adjacencylist)）
 
 - 
 
-  ​
+  ）
 
-- 栈(判断是否回文、实现十进制转其它进制、阶乘)
+- [散列表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/hashtable)（线性探测、判断字符串中出现次数最多的字符、模拟 Java 中 String 类的 hashCode 方法）
 
-- 模拟 Java 中 String 类的 hashCode 方法
+- [链表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/list)（双向链表、单向链表、已排序的双向链表）
 
-- 生成 UUID
+- [队列](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/queue)（优先队列）
 
-- 多数问题
+- [栈](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/stack)（判断是否回文、实现十进制转其它进制、阶乘）
 
-- 分治法(二分搜索、寻找数组中的最大和最小值)
+- [生成 UUID](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Math.uuid.js)
 
-- 输出螺旋矩形算法
+- [多数问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/candidate.html)
 
-- 随机打乱一维数组
+- [分治法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/binarysearch.html)（二分搜索、寻找数组中的最大和最小值）
 
-- ​
+- [输出螺旋矩形算法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/helix.html)
+
+- [随机打乱一维数组](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/index.html)
+
+- [穷举法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/exhaustive)（鸡兔同笼、韩信点兵、“剪枝”）
+
+- [字典类](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/dictionary.html)
+
+- [Base64](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Base64.html)
+
+- [MD5](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/md5.html)
+
+- [SHA-1](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/sha1.html)
 
 ### 工具
 
@@ -211,7 +215,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 | 分类              | 内容                                       |
 | --------------- | ---------------------------------------- |
-| 开发工具            | Atom (安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可) |
+| 开发工具            | Atom （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Rollup、Webpack、Gulp、Grunt                |
 | 包管理             | NPM                                      |
