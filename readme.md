@@ -32,16 +32,6 @@
 
 ### 技术
 
-| 类别     | 内容                                       |
-| ------ | ---------------------------------------- |
-| 开发语言   | JavaScript/NodeJS、CoffeeScript、Html、CSS、Markdown |
-| UI框架   | BootStrap、AmazeUI                        |
-| 数据可视化  | D3.js、ECharts、HighCharts                 |
-| MV＊    | Chaplin、Backbone、AngularJS、React、Vue、Avalon、Knockout |
-| DOM操作  | JQuery、Zepto                             |
-| 前端模版   | Handlebars                               |
-| 服务器端语言 | Java、PHP                                 |
-
 #### JavaScript应用领域和技术栈
 
 JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网、智能家居，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
