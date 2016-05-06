@@ -62,7 +62,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 > 模式，帮助你设计API、搭建代码架构、优化性能
 
-1. API模式，帮助我们为函数给出更干净的接口，包括
+1. [API模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/api.js)，帮助我们为函数给出更干净的接口，包括
 
    | 模式   | 说明                     |
    | ---- | ---------------------- |
@@ -71,7 +71,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    | 返回函数 | 函数的返回值是另一个函数           |
    | 柯里化  | 新函数在已有函数的基础上再加上一部分参数构成 |
 
-2. 初始化模式，帮助我们用一种干净的、结构化的方法来做一些初始化工作，通过一些临时变量来保证不污染全局命名空间。包括：
+2. [初始化模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/init.js)，帮助我们用一种干净的、结构化的方法来做一些初始化工作，通过一些临时变量来保证不污染全局命名空间。包括：
 
    | 模式      | 说明                                |
    | ------- | --------------------------------- |
@@ -79,7 +79,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
    | 对象即时初始化 | 初始化工作被放入一个匿名对象，这个对象提供一个可以立即被执行的方法 |
    | 条件初始化   | 使分支代码只在初始化时执行一次，而不是在整个程序生命周期中反复执行 |
 
-3. 性能模式，帮助提高代码执行速度，包括：
+3. [性能模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/performance.js)，帮助提高代码执行速度，包括：
 
    | 模式    | 说明                        |
    | ----- | ------------------------- |
@@ -88,68 +88,68 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 4. 对象创建模式，包括：
 
-   | 模式              | 说明                    |
-   | --------------- | --------------------- |
-   | 命名空间模式 ＋ 依赖声明模式 | 保持全局空间干净、帮助组织代码       |
-   | 沙箱模式            | 唯一的全局变量是一个构造函数        |
-   | 链式调用模式          |                       |
-   | method() 方法     | 将JavaScript变得像基于类的语法糖 |
+   | 模式                                       | 说明                    |
+   | ---------------------------------------- | :-------------------- |
+   | [命名空间模式 ＋ 依赖声明模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/namespace.js) | 保持全局空间干净、帮助组织代码       |
+   | [沙箱模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/sanbox.js) | 唯一的全局变量是一个构造函数        |
+   | 链式调用模式                                   |                       |
+   | [method() 方法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/method.js) | 将JavaScript变得像基于类的语法糖 |
 
 5. 代码复用模式。
 
    > “优先使用对象创建而不是类继承”
 
-   | 模式     | 说明                               |
-   | ------ | -------------------------------- |
-   | 现代继承模式 | Object.create() 、借用方法、绑定、复制属性、混元 |
-   | 类式继承   | Klass                            |
+   | 模式     | 说明                                       |
+   | ------ | ---------------------------------------- |
+   | 现代继承模式 | [Object.create()](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/create.js) 、借用方法、绑定、[复制属性](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/extend.js)、[混元](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/mix-ins.js) |
+   | 类式继承   | [Klass](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/kclass.js) |
 
 6. 设计模式，包括：
 
    ![设计模式六大原则](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/2012110233.jpg)
 
-   | 模式                       | 说明                                       | 遵循原则           |
-   | ------------------------ | ---------------------------------------- | -------------- |
-   | 单例模式                     | 使用`new`、通过同一个构造函数来创建多个对象时，得到同一个对象的不同引用   |                |
-   | 工厂模式                     | 在运行时通过指定字符串来创建指定类型对象的方法                  | 开闭原则（OCP）      |
-   | 遍历模式                     | 提供一种简单的API（hasNext（）、next（））来访问复杂的有序聚合数据的每个元素 |                |
-   | 装饰模式                     | 在运行时动态地给一个对象添加一些额外功能                     |                |
-   | 策略模式（对比 状态模式）            | API一致情况下，允许在运行时选择策略                      |                |
-   | 外观模式（"门面模式"）             | 包装通用的或者设计很差的方法来提供一个更方便的API               | 迪米特法则（LoD,LKP） |
-   | 代理模式（对比 适配器模式）           | 一个对象充当了另一个对象的接口的角色                       |                |
-   | 中介者模式                    | 各彼此合作的对象通过一个`mediator`（中介者）对象通讯          |                |
-   | 观察者模式（“订阅者/发布者”或“自定义事件”） | 创建“可被观察的对象”使它在某个事件发生时通知订阅者的方式            |                |
+   | 模式                                       | 说明                                       | 遵循原则           |
+   | ---------------------------------------- | ---------------------------------------- | -------------- |
+   | [单例模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/singleton) | 使用`new`、通过同一个构造函数来创建多个对象时，得到同一个对象的不同引用   |                |
+   | [工厂模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/factory.js) | 在运行时通过指定字符串来创建指定类型对象的方法                  | 开闭原则（OCP）      |
+   | [遍历模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/iterator) | 提供一种简单的API（hasNext（）、next（））来访问复杂的有序聚合数据的每个元素 |                |
+   | [装饰模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/decorate) | 在运行时动态地给一个对象添加一些额外功能                     |                |
+   | [策略模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/strategy)（对比 [状态模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/status)） | API一致情况下，允许在运行时选择策略                      |                |
+   | 外观模式（"门面模式"）                             | 包装通用的或者设计很差的方法来提供一个更方便的API               | 迪米特法则（LoD,LKP） |
+   | [代理模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/proxy)（对比 适配器模式） | 一个对象充当了另一个对象的接口的角色                       |                |
+   | [中介者模式](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/mediator.html) | 各彼此合作的对象通过一个`mediator`（中介者）对象通讯          |                |
+   | [观察者模式](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/observer)（“订阅者/发布者”或“自定义事件”） | 创建“可被观察的对象”使它在某个事件发生时通知订阅者的方式            |                |
 
 7. DOM和浏览器中的模式，包括：
 
    > 遵循分离和渐进增强的思想
 
-   | 类别           | 模式          | 说明                             |
-   | ------------ | ----------- | ------------------------------ |
-   | DOM编程        | DOM访问       | 避免在循环中访问DOM                    |
-   |              |             | 将DOM引用赋给本地变量，然后操作本地变量          |
-   |              |             | 当可能的时候使用selectors API          |
-   |              |             | 遍历HTML collections时缓存length    |
-   |              | DOM操作       | 使用文档碎片                         |
-   |              |             | “cloneNode父节点＋修改＋replaceChild” |
-   | 事件           | 事件处理        |                                |
-   |              | 事件委托        |                                |
-   | 长时间运行的脚本     |             | setTimeout()                   |
-   |              |             | Web Workers                    |
-   | 远程脚本编程       |             | XMLHttpRequest                 |
-   |              |             | JSONP                          |
-   |              |             | 框架（frame）和图片信标（image beacon）   |
-   | 部署JavaScript | 合并脚本        |                                |
-   |              | 压缩 + gzip   |                                |
-   |              | 使用CDN + 缓存头 |                                |
-   |              | 加载策略        | HTML5中更好的`async`               |
-   |              | 引入页面脚本的模式   | `<script>`元素的位置                |
-   |              |             | HTTP 分块                        |
-   |              |             | 动态script元素实现非阻塞下载              |
-   |              |             | 插入`<script>`元素                 |
-   |              | 减少初始化工作量    | 延迟加载                           |
-   |              |             | 按需加载                           |
-   |              |             | 预加载 JavaScript                 |
+   | 类别           | 模式          | 说明                                       |
+   | ------------ | ----------- | ---------------------------------------- |
+   | DOM编程        | DOM访问       | 避免在循环中访问DOM                              |
+   |              |             | 将DOM引用赋给本地变量，然后操作本地变量                    |
+   |              |             | 当可能的时候使用selectors API                    |
+   |              |             | 遍历HTML collections时缓存length              |
+   |              | DOM操作       | [使用文档碎片](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/documentfragment.js) |
+   |              |             | “cloneNode父节点＋修改＋replaceChild”           |
+   | 事件           | 事件处理        |                                          |
+   |              | 事件委托        |                                          |
+   | 长时间运行的脚本     |             | setTimeout()                             |
+   |              |             | [Web Workers](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.patterns/web-workers) |
+   | 远程脚本编程       |             | [XMLHttpRequest](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/xhr.html) |
+   |              |             | [JSONP](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/jsonp.html) |
+   |              |             | 框架（frame）和图片信标（image beacon）             |
+   | 部署JavaScript | 合并脚本        |                                          |
+   |              | 压缩 + gzip   |                                          |
+   |              | 使用CDN + 缓存头 |                                          |
+   |              | 加载策略        | HTML5中更好的`async`                         |
+   |              | 引入页面脚本的模式   | `<script>`元素的位置                          |
+   |              |             | HTTP 分块                                  |
+   |              |             | 动态script元素实现非阻塞下载                        |
+   |              |             | 插入`<script>`元素                           |
+   |              | 减少初始化工作量    | [延迟加载](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/lazy-load.html) |
+   |              |             | [按需加载](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/require.js) |
+   |              |             | [预加载 JavaScript](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.patterns/preload-javascript.js) |
 
 ### 数据结构与算法
 
