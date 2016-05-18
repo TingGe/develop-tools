@@ -16,7 +16,7 @@
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Lean）、PMP
 - 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine（需求过程管理） + Confluence（需求内容管理）、Mantis
-- 文档：[Typora](http://typora.io)、Evernote、MS Office
+- 文档：[Typora](https://typora.io)、Evernote、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
 
 ## 研发
