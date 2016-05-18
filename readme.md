@@ -181,7 +181,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 | 分类              | 内容                                       |
 | --------------- | ---------------------------------------- |
-| 开发工具            | Atom （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
+| 开发工具            | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Rollup、Webpack、Gulp、Grunt                |
 | 包管理             | NPM                                      |
@@ -190,14 +190,15 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
 | 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
 | 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
+| Node.js 调试      | [node-supervisor](https://github.com/petruisfan/node-supervisor)、[Node Inspector](https://github.com/node-inspector/node-inspector)、 |
 | PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
 | WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
 | 部署              | [pm2](http://pm2.keymetrics.io/)         |
 
 ### Mac或Linux系
 
-- 工具：Term2、Vim、Git、Git flow、Oh my zsh、Tmux、Nginx
-- iOS移动页调试： Safari、Chrome、QQ浏览器、MIHTool、HttpWatch
+- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx
+- iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 
 ### Windows系
 
