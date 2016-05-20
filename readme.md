@@ -32,6 +32,8 @@
 
 ### 技术
 
+>  快速迭代的产品必须有敏捷的技术栈和稳定的框架。
+
 #### JavaScript应用领域和技术栈
 
 JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网、智能家居，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
@@ -185,7 +187,8 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
 | 构建工具            | Rollup、Webpack、Gulp、Grunt                |
 | 包管理             | NPM                                      |
-| 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[Nightmare](http://www.nightmarejs.org/) |
+| 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/) |
+| 页面响应时间、压测       | loadrunner、jmeter                        |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
 | 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
@@ -218,10 +221,11 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 7. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
 8. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
 9. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
-10. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-11. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-12. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
-13. [什么是phantomJS？](http://div.io/topic/1413)
-14. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-15. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-16. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+10. [写给想做前端的你](http://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650208205&idx=1&sn=fe8d7359a76157dcc8be2937309b9575)
+11. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+12. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+13. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+14. [什么是phantomJS？](http://div.io/topic/1413)
+15. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+16. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+17. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
