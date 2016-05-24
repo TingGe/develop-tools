@@ -1,6 +1,6 @@
 # 匠心之路
 
-> 我认为，科技公司是 “价值导向，业务选型，管理整合，技术创新” 的
+> 我认为，科技公司是 “价值导向，业务选型，管理整合，技术创新” 的。
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
@@ -45,7 +45,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 全栈 JavaScript | [React Starter Kit](https://github.com/kriasoft/react-starter-kit)、[MERN](http://mern.io/)、[MEAN](http://mean.io/) |
 | 服务器端          | NodeJS                                   |
 | 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
-| 桌面应用          | Electron                                 |
+| 桌面应用          | [Electron](https://electron.atom.io/)    |
 | 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | Cylon、Arduino、Tessel、Ruff                |
