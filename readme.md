@@ -25,6 +25,7 @@
 
 > 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 
+- 应用程序执行容器： Docker
 - 代码仓库：Github、GitLab
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：RESTful API、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
@@ -48,7 +49,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 桌面应用          | [Electron](https://electron.atom.io/)    |
 | 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
-| 物联网           | Cylon、Arduino、Tessel、Ruff                |
+| 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
 
 #### JavaScript 引擎
 
