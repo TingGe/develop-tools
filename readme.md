@@ -62,6 +62,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | PhantomJS                             | JavaScriptCore                           |
 | TrifleJS                              | V8                                       |
 | Node.js                               | V8                                       |
+| Ruff                                  | [Duktape](http://duktape.org/)           |
 
 ### 模式
 
