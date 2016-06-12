@@ -16,7 +16,7 @@
 
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
-- 项目管理方式：Agile Project Management（Scrum、XP、Lean）、PMP
+- 项目管理方式：Agile Project Management（Scrum、XP、Kanban、Lean）、PMP
 - 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine（需求过程管理） + Confluence（需求内容管理）、Mantis
 - 文档：[Typora](https://typora.io)、Evernote、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
@@ -25,8 +25,9 @@
 
 > 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 
-- 应用程序执行容器： Docker
-- 代码仓库：Github、GitLab
+- 应用程序执行容器： [Docker](https://www.docker.com/)
+- 代码仓库：Github、[GitLab](https://about.gitlab.com/)
+- 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：RESTful API、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
 - 图像处理：ImageMagick
