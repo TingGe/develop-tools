@@ -6,6 +6,8 @@
 
 ## 管理
 
+> 老子云：“太上，不知有之；其次，亲而誉之；其次，畏之；其次，侮之。”
+>
 > 公司成长业务增加，核心的关键是让优秀人才的密度超过业务复杂度的增加。
 
 ![业务、人才、流程的关系](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/640.png)
@@ -56,7 +58,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 |            | 技术                                       |
 | ---------- | ---------------------------------------- |
-| web UI 框架  | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/) |
+| web UI     | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/) |
 | Node.js 框架 | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
 
 #### JavaScript 引擎
