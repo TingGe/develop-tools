@@ -31,7 +31,7 @@
 - 代码仓库：Github、[GitLab](https://about.gitlab.com/)
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
-- 规范：RESTful API、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
+- 规范：[RESTful API](http://www.jianshu.com/p/ee8059f3e097)、[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
 - 图像处理：ImageMagick
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Trace](https://trace.risingstack.com/)
 - 移动测试缺陷发现和管理：[Bugtags](https://www.bugtags.com/)、[Fabric](https://get.fabric.io/)
@@ -56,10 +56,11 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 #### Web 前端
 
-|            | 技术                                       |
-| ---------- | ---------------------------------------- |
-| web UI     | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/) |
-| Node.js 框架 | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
+|                | 技术                                       |
+| -------------- | ---------------------------------------- |
+| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/) |
+| Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
+| Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
 
 #### JavaScript 引擎
 
