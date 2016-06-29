@@ -203,8 +203,9 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | --------------- | ---------------------------------------- |
 | 开发工具            | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
 | JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
-| 构建工具            | Rollup、Webpack、Gulp、Grunt                |
+| 构建工具            | NPM Scripts、Rollup、Webpack、Gulp、Grunt    |
 | 包管理             | NPM                                      |
+| 监控 Node.js 项目依赖 | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
 | 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
 | 性能测试（页面响应时间、压测） | loadrunner、jmeter                        |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
