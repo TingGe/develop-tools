@@ -219,7 +219,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### Mac或Linux系
 
-- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx
+- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx、htop
 - iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 
 ### Windows系
@@ -250,3 +250,4 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 17. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
 18. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
 19. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+20. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
