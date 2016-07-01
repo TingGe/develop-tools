@@ -19,8 +19,9 @@
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Kanban、Lean）、PMP
-- 协调团队间工作：[teambition](https://www.teambition.com/)、[Slack](https://slack.com/)、[Gantter](http://gantter.com/)、[HackPad](https://hackpad.com/)、Redmine（需求过程管理） + Confluence（需求内容管理）、Mantis
-- 文档：[Typora](https://typora.io)、Evernote、MS Office
+- 协调团队间工作：[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、、Mantis
+- 文件共享服务：NAS
+- 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
 
 ## 研发
@@ -32,7 +33,6 @@
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
-- 图像处理：ImageMagick
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [Trace](https://trace.risingstack.com/)
 - 实时数据一站式解决方案：ELK stack（[ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Kibana](https://www.elastic.co/downloads/kibana)）
 - 移动测试缺陷发现和管理：[Bugtags](https://www.bugtags.com/)、[Fabric](https://get.fabric.io/)
@@ -231,24 +231,39 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ## 附录
 
+### 管理与协作
+
 1. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
 2. [「2016码会」张一鸣：为何不赞同控制人力成本](https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649506988&idx=1&sn=926c4f3c79dd1d91a0b452bb889d1221)
 3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
 4. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
 5. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
 6. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
-7. [docker-gitlab搭建使用及问题解决](http://www.linuxidc.com/Linux/2016-05/131880.htm)
-8. [REST API 安全设计指南](http://blog.nsfocus.net/rest-api-design-safety/)
-9. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
-10. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
-11. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
-12. [写给想做前端的你](http://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650208205&idx=1&sn=fe8d7359a76157dcc8be2937309b9575)
-13. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
-14. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-15. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-16. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
-17. [什么是phantomJS？](http://div.io/topic/1413)
-18. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-19. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-20. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
-21. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
+
+### 研发
+
+1. [REST API 安全设计指南](http://blog.nsfocus.net/rest-api-design-safety/)
+2. [浅谈API安全设计](http://www.jianshu.com/p/d7c52d113a68)
+3. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
+4. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+5. [写给想做前端的你](http://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650208205&idx=1&sn=fe8d7359a76157dcc8be2937309b9575)
+
+### 技术
+
+1. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
+2. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+3. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+4. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+
+### 工具
+
+1. [什么是phantomJS？](http://div.io/topic/1413)
+2. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+3. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+4. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
+5. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
+6. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+7. [commandlinefu](http://www.commandlinefu.com/)
+8. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
+9. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
+10. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
