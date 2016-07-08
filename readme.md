@@ -173,7 +173,22 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### 数据结构与算法
 
-> 经典的有：8大排序算法和3大插入算法
+> 经典的有：8大排序算法和4大查找算法
+
+排序：直接插入、希尔排序，直接选择、堆排序，冒泡排序、快速排序，归并排序，基数排序。
+
+![8大排序算法](./img/sorting-algorithm.png)
+
+查找：顺序查找、快速（折半）查找、分块查找和散列表
+
+|        | 平均查找长度（ n=节点数，分b块，s=n/b）                 | 查找效率 |
+| ------ | ---------------------------------------- | ---- |
+| 顺序     | (n+1)/2                                  | 低    |
+| 快速（折半） | Log2(n+1)-1                              | 高    |
+| 分块     | (分块查找索引表)平均查找长度=Log2(n/s+1)+s/2；(顺序查找索引表)平均查找长度=(S2+2S+n)/(2S) | 中    |
+| 散列表    | 1                                        | 直接寻址 |
+
+#### 示例
 
 1. 数组（[随机打乱一维数组](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/index.html)、[多数问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/candidate.html)、[分治法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/binarysearch.html)、[选择排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)）
 2. [栈](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/stack)（判断是否回文、实现十进制转其它进制、阶乘）
@@ -240,10 +255,11 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 1. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
 2. [「2016码会」张一鸣：为何不赞同控制人力成本](https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649506988&idx=1&sn=926c4f3c79dd1d91a0b452bb889d1221)
-3. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
-4. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
-5. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
-6. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+3. [如何培养高薪人士的逻辑思维力](https://mp.weixin.qq.com/s?__biz=MzA4NzgxMzQzMA==&mid=2654157986&idx=1&sn=225526ec705084c12a400a9a74dbafde)
+4. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
+5. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
+6. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
+7. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
 
 ### 研发
 
