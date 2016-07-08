@@ -1,5 +1,7 @@
 # 匠心之路
 
+[TOC]
+
 > 我认为，科技公司是 “价值导向，业务选型，管理整合，技术创新” 的。
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
@@ -19,7 +21,7 @@
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Kanban、Lean）、PMP
-- 协调团队间工作：[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、、Mantis
+- 协调团队间工作：[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
@@ -171,6 +173,8 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### 数据结构与算法
 
+> 经典的有：8大排序算法和3大插入算法
+
 1. 数组（[随机打乱一维数组](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/index.html)、[多数问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/candidate.html)、[分治法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/binarysearch.html)、[选择排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)）
 2. [栈](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/stack)（判断是否回文、实现十进制转其它进制、阶乘）
 3. [队列](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/queue)（优先队列）
@@ -210,16 +214,16 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 性能测试（页面响应时间、压测） | loadrunner、jmeter                        |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
-| 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy) |
+| 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark |
 | 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
-| Node.js 调试      | [node-supervisor](https://github.com/petruisfan/node-supervisor)、[Node Inspector](https://github.com/node-inspector/node-inspector)、 |
-| PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug）、Wireshark |
+| Node.js 调试      | [Node Inspector](https://github.com/node-inspector/node-inspector) |
+| PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
 | WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
 | 部署              | [pm2](http://pm2.keymetrics.io/)         |
 
 ### Mac或Linux系
 
-- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx、htop
+- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx、htop、nmon
 - iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 
 ### Windows系
@@ -254,6 +258,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 2. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
 3. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
 4. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+5. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
 
 ### 工具
 
