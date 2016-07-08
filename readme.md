@@ -210,7 +210,8 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 | 构建工具            | NPM Scripts、Rollup、Webpack、Gulp、Grunt    |
 | 包管理             | NPM                                      |
 | 监控 Node.js 项目依赖 | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
-| 自动化测试           | Mocha、Chai、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
+| 端到端测试           | [Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
+| 单元测试            | Mocha、Chai                               |
 | 性能测试（页面响应时间、压测） | loadrunner、jmeter                        |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
