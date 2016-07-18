@@ -41,11 +41,13 @@
 
 ### 技术
 
+>  Web 核心：API、JavaScript、Html、CSS
+>
 >  快速迭代的产品必须有敏捷的技术栈和稳定的框架。
 
 #### JavaScript 应用领域和技术栈
 
-JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网、智能家居，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
+JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
 
 | 应用领域          | 技术栈                                      |
 | ------------- | ---------------------------------------- |
@@ -239,7 +241,7 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 
 ### Mac或Linux系
 
-- 工具：Term2、Vim、Git、[git-flow](https://github.com/nvie/gitflow)、Oh my zsh、[Tmux](https://github.com/tmux/tmux)、Nginx、htop、nmon
+- 工具：[Term2](http://www.iterm2.com/)、[Vim](http://www.vim.org/download.php)、Git、[git-flow](https://github.com/nvie/gitflow)、[Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)、[Tmux](https://github.com/tmux/tmux)、[m-cli](https://github.com/rgcr/m-cli)、Nginx、htop、nmon
 - iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 
 ### Windows系
@@ -254,13 +256,14 @@ JavaScript 在经历 端的融合、栈的融合阶段。JavaScript 可以做很
 ### 管理与协作
 
 1. [擦亮眼睛－如何选择创业公司](https://mp.weixin.qq.com/s?__biz=MzI3MDE0MzAzMw==&mid=2652201810&idx=1&sn=075b31abfaed597f222cbedccb02ab70)
-2. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
+2. [CTO、技术总监、首席架构师的区别](http://mp.weixin.qq.com/s?__biz=MjM5Njk2Mzg0MQ==&mid=2651072525&idx=1&sn=4a5147a1fe70e3531891caf8fba29bb6)
 3. [「2016码会」张一鸣：为何不赞同控制人力成本](https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649506988&idx=1&sn=926c4f3c79dd1d91a0b452bb889d1221)
-4. [如何培养高薪人士的逻辑思维力](https://mp.weixin.qq.com/s?__biz=MzA4NzgxMzQzMA==&mid=2654157986&idx=1&sn=225526ec705084c12a400a9a74dbafde)
-5. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
-6. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
-7. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
-8. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+4. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
+5. [如何培养高薪人士的逻辑思维力](https://mp.weixin.qq.com/s?__biz=MzA4NzgxMzQzMA==&mid=2654157986&idx=1&sn=225526ec705084c12a400a9a74dbafde)
+6. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
+7. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
+8. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
+9. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
 
 ### 研发
 
