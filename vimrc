@@ -5,7 +5,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-Plugin 'kchmck/vim-coffee-script'
+"Plugin 'kchmck/vim-coffee-script'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'mattn/emmet-vim'
 
 syntax enable
 filetype plugin indent on
@@ -118,8 +121,6 @@ map <D-left>   :tabprevious<cr>
 set matchpairs=(:),{:},[:],<:>
 "让退格，空格，上下箭头遇到行首行尾时自动移到下一行（包括insert模式）
 set whichwrap=b,s,<,>,[,]
-"Nerd tree
-nmap <silent> <leader>nt :NERDTreeToggle .<cr>
 
 "CtrlP插件，模拟Sublime Ctrl + P功能
 let g:ctrlp_map = '<C-P>'
@@ -138,4 +139,32 @@ nmap F  :call EasyMotion#WB(0, 1)<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 
 :set cc=80
-
+"配置 Emmet
+let g:user_emmet_settings = {
+  \ 'php' : {
+  \ 'extends' : 'html',
+  \ 'filters' : 'c',
+  \ },
+  \ 'xml' : {
+  \ 'extends' : 'html',
+  \ },
+  \ 'haml' : {
+  \ 'extends' : 'html',
+  \ },
+  \}
+let g:user_emmet_expandabbr_key = '<C-W>'
+" 配置 javascript plugin
+set foldmethod=syntax
+let g:javascript_conceal_function       = "ƒ"
+let g:javascript_conceal_null           = "ø"
+let g:javascript_conceal_this           = "@"
+let g:javascript_conceal_return         = "⇚"
+let g:javascript_conceal_undefined      = "¿"
+let g:javascript_conceal_NaN            = "ℕ"
+let g:javascript_conceal_prototype      = "¶"
+let g:javascript_conceal_static         = "•"
+let g:javascript_conceal_super          = "Ω"
+let g:javascript_conceal_arrow_function = "⇒"
+"配置 vim-jsx
+let g:jsx_ext_required = 0
+let g:jsx_pragma_required = 1

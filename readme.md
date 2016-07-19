@@ -63,7 +63,14 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 |                | 技术                                       |
 | -------------- | ---------------------------------------- |
-| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/) |
+| 语言             | Babel + ES6、TypeScript、CoffeeScript      |
+| DOM库           | zepto、jQuery                             |
+| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/) |
+| 工具库            | lodash、underscore                        |
+| 模版引擎           | pug、Handlebars、Mustache                  |
+| 异步编程           | Async、Q、                                 |
+| 模块化            | ES6 Modules、Browserify（CommonJS）、RequireJS（AMD）、SeaJS（CMD）、KMD.js（KMD） |
+| MV* 框架         | React、Vue、Angular、Avalon                 |
 | Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
 | Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
 
@@ -237,7 +244,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | Node.js 调试      | [Node Inspector](https://github.com/node-inspector/node-inspector) |
 | PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
 | WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
-| 部署              | [pm2](http://pm2.keymetrics.io/)         |
+| 部署              | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |
 
 ### Mac或Linux系
 
