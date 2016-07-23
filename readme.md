@@ -186,6 +186,8 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 排序：直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
 
+[8大排序算法 JS 示例](https://github.com/TingGe/develop-tools/blob/master/algorithm.md)
+
 ![8大排序算法](./img/sorting-algorithm.png)
 
 查找：顺序查找、快速（折半）查找、分块查找和散列表
@@ -287,6 +289,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 3. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
 4. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
 5. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
+6. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
 
 ### 工具
 
