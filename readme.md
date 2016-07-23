@@ -296,10 +296,11 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 1. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
 2. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-3. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-4. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
-5. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
-6. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
+3. [有前景、有钱途 2016前端开发领域趋势](http://tech.it168.com/a2016/0719/2800/000002800376.shtml)
+4. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+5. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+6. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
+7. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
 
 ### 工具
 
