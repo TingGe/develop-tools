@@ -75,13 +75,13 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | -------------- | ---------------------------------------- |
 | 语言             | Babel + ES6、TypeScript、CoffeeScript      |
 | DOM库           | zepto、jQuery                             |
-| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/) |
+| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/)、[Materialize](http://www.materialscss.com/)、[Material-UI](http://www.material-ui.com/)、[Angular Material](https://material.angularjs.org/latest/) |
 | 工具库            | lodash、underscore                        |
 | 模版引擎           | pug、Handlebars、Mustache                  |
 | 异步编程           | Async、Q、                                 |
 | 模块化            | ES6 Modules、Browserify（CommonJS）、RequireJS（AMD）、SeaJS（CMD）、KMD.js（KMD） |
 | MV* 框架         | React、Vue、Angular、Avalon                 |
-| 数据层框架          | Redux（redux-thunk\redux-promise）         |
+| 数据层框架          | Redux（redux-thunk\redux-promise）、Relay/graphQL |
 | Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
 | Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
 
@@ -248,7 +248,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 包管理             | NPM                                      |
 | 监控 Node.js 项目依赖 | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
 | 端到端测试           | [Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
-| 单元测试            | Mocha、Chai                               |
+| 单元测试            | Mocha+Chai+Sinon                         |
 | 性能测试（页面响应时间、压测） | loadrunner、jmeter                        |
 | 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
 | 静态api           | [json-server](https://github.com/typicode/json-server) |
@@ -297,11 +297,12 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 1. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
 2. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-3. [有前景、有钱途 2016前端开发领域趋势](http://tech.it168.com/a2016/0719/2800/000002800376.shtml)
-4. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-5. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
-6. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
-7. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
+3. [2016年的前端技术栈展望](http://www.ido321.com/1669.html)
+4. [有前景、有钱途 2016前端开发领域趋势](http://tech.it168.com/a2016/0719/2800/000002800376.shtml)
+5. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+6. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+7. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
+8. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
 
 ### 工具
 
