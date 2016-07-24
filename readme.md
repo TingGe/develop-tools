@@ -193,7 +193,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 ### 数据结构与算法
 
-> 经典的有：8大排序算法和4大查找算法
+> 经典的有：8大排序算法和4大查找算法。
 
 排序：直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
 
@@ -209,6 +209,8 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 快速（折半） | Log2(n+1)-1                              | 高    |
 | 分块     | (分块查找索引表)平均查找长度=Log2(n/s+1)+s/2；(顺序查找索引表)平均查找长度=(S2+2S+n)/(2S) | 中    |
 | 散列表    | 1                                        | 直接寻址 |
+
+图：// Todo
 
 #### 示例
 
@@ -267,7 +269,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 ### Windows系
 
 - 文档：XMLmind_XML_Editor
-- 工具：Babun
+- 工具：Babun、[GNVM](http://ksria.com/gnvm/)
 - PC Web调试：IE、Fiddler
 - Android移动页调试： UC浏览器（参见 “[UC浏览器开发者中心](http://www.uc.cn/business/developer/)”）、微信WebView（参见 “[微信调试工具](http://blog.qqbrowser.cc/)”）
 
@@ -303,6 +305,10 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 6. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
 7. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
 8. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
+9. [浅谈 JavaScript 处理树形结构的几个场景与方案](https://github.com/Lucifier129/Lucifier129.github.io/issues/4)
+10. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
+11. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
+12. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
 
 ### 工具
 
