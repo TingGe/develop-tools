@@ -81,6 +81,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 异步编程           | Async、Q、                                 |
 | 模块化            | ES6 Modules、Browserify（CommonJS）、RequireJS（AMD）、SeaJS（CMD）、KMD.js（KMD） |
 | MV* 框架         | React、Vue、Angular、Avalon                 |
+| 数据层框架          | Redux（redux-thunk\redux-promise）         |
 | Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
 | Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
 
