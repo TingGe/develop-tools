@@ -8,7 +8,11 @@
 
 ## 企业
 
+创业是以融资支撑指数型增长的爆发领域的事情。
+
 ### 企业要素
+
+> 一个创业项目成功，技术只是各个条件中一环。用户体验打磨、营销各种因素的综合，甚至运气占非常重要的成分。在 2B 领域，客户选择一个产品，会有很多综合考量，例如产品特色、实施成本、维护服务等，并不仅仅是产品功能和公司规模能决定的。
 
 ![](./img/271320871718220728.jpg)
 
@@ -38,6 +42,8 @@
 
 ## 研发
 
+> 组织文化上：公司内部应重视 code review、wiki，重视技术分享，给予并鼓励 20% 个人项目时间；不是内斗纷争、团队方向散乱、技术氛围不浓厚。
+>
 > 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 
 - 应用程序执行容器： [Docker](https://www.docker.com/)
@@ -71,17 +77,19 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 #### Web 前端
 
+> 至今，没有最佳实践，大家对同一个问题通常有不同解法。这是 library 相对于 framework 的劣势。
+
 |                | 技术                                       |
 | -------------- | ---------------------------------------- |
 | 语言             | Babel + ES6、TypeScript、CoffeeScript      |
-| DOM库           | zepto、jQuery                             |
 | web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/)、[Materialize](http://www.materialscss.com/)、[Material-UI](http://www.material-ui.com/)、[Angular Material](https://material.angularjs.org/latest/) |
+| DOM库           | zepto、jQuery                             |
 | 工具库            | lodash、underscore                        |
 | 模版引擎           | pug、Handlebars、Mustache                  |
 | 异步编程           | Async、Q、                                 |
 | 模块化            | ES6 Modules、Browserify（CommonJS）、RequireJS（AMD）、SeaJS（CMD）、KMD.js（KMD） |
 | MV* 框架         | React、Vue、Angular、Avalon                 |
-| 数据层框架          | Redux（redux-thunk\redux-promise）、Relay/graphQL |
+| 数据层框架          | Redux（redux-thunk/redux-promise）、Relay/graphQL |
 | Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
 | Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
 
@@ -242,24 +250,25 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 >
 > “图形用户界面让简单的任务更容易完成， 而命令行界面使完成复杂的任务成为可能”。
 
-| 分类              | 内容                                       |
-| --------------- | ---------------------------------------- |
-| 开发工具            | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
-| JavaScript 代码风格 | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
-| 构建工具            | NPM Scripts、Rollup、Webpack、Gulp、Grunt    |
-| 包管理             | NPM                                      |
-| 监控 Node.js 项目依赖 | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
-| 端到端测试           | [Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
-| 单元测试            | Mocha+Chai+Sinon                         |
-| 性能测试（页面响应时间、压测） | loadrunner、jmeter                        |
-| 静态Web服务器        | [http-server](https://github.com/indexzero/http-server) |
-| 静态api           | [json-server](https://github.com/typicode/json-server) |
-| 抓包和本地替换Web调试    | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark |
-| 嵌入式数据库          | [NeDB](https://github.com/louischatriot/nedb) |
-| Node.js 调试      | [Node Inspector](https://github.com/node-inspector/node-inspector) |
-| PC Web调试        | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
-| WebView和浏览器调试   | [DebugGap](http://www.debuggap.com/)     |
-| 部署              | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |
+| 分类                     | 内容                                       |
+| ---------------------- | ---------------------------------------- |
+| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
+| JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
+| 构建工具                   | NPM Scripts、Rollup、Webpack、Gulp、Grunt    |
+| 包管理                    | NPM                                      |
+| ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |
+| 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
+| 端到端测试                  | [Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
+| 单元测试                   | Mocha+Chai+Sinon                         |
+| 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |
+| 静态Web服务器               | [http-server](https://github.com/indexzero/http-server) |
+| 静态api                  | [json-server](https://github.com/typicode/json-server) |
+| 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark |
+| 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |
+| Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |
+| PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
+| WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |
+| 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |
 
 ### Mac或Linux系
 
@@ -286,6 +295,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 7. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
 8. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
 9. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+10. [你离升职加薪就差这份总结报告了](http://mp.weixin.qq.com/s?__biz=MzA5NDk4NDM0OA==&mid=2653175942&idx=1&sn=912f4d394bcfc5e3fe0fcddfe201c16f)
 
 ### 研发
 
