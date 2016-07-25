@@ -81,7 +81,8 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 |                | 技术                                       |
 | -------------- | ---------------------------------------- |
-| 语言             | Babel + ES6、TypeScript、CoffeeScript      |
+| JS 预处理         | Babel + ES6、TypeScript、CoffeeScript      |
+| CSS 预处理        | [Scss/Sass](http://sass-lang.com)、[Less](http://lesscss.org)、[Stylus](http://learnboost.github.com/stylus)、[PostCSS](http://postcss.org/) |
 | web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/)、[Materialize](http://www.materialscss.com/)、[Material-UI](http://www.material-ui.com/)、[Angular Material](https://material.angularjs.org/latest/) |
 | DOM库           | zepto、jQuery                             |
 | 工具库            | lodash、underscore                        |
@@ -319,6 +320,8 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 10. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
 11. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
 12. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
+13. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
+14. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
 
 ### 工具
 
