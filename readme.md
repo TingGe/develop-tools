@@ -316,12 +316,13 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 6. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
 7. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
 8. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
-9. [浅谈 JavaScript 处理树形结构的几个场景与方案](https://github.com/Lucifier129/Lucifier129.github.io/issues/4)
-10. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
-11. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
-12. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
-13. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
-14. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
+9. [前端人应该知道的排序知识](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484016&idx=1&sn=cbe489e36893e389cab912ee4c4946d4)
+10. [浅谈 JavaScript 处理树形结构的几个场景与方案](https://github.com/Lucifier129/Lucifier129.github.io/issues/4)
+11. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
+12. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
+13. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
+14. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
+15. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
 
 ### 工具
 
