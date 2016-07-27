@@ -75,25 +75,6 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
 
-#### Web 前端
-
-> 至今，没有最佳实践，大家对同一个问题通常有不同解法。这是 library 相对于 framework 的劣势。
-
-|                | 技术                                       |
-| -------------- | ---------------------------------------- |
-| JS 预处理         | Babel + ES6、TypeScript、CoffeeScript      |
-| CSS 预处理        | [Scss/Sass](http://sass-lang.com)、[Less](http://lesscss.org)、[Stylus](http://learnboost.github.com/stylus)、[PostCSS](http://postcss.org/) |
-| web UI         | [Bootstrap](http://getbootstrap.com/)、[Ratchet](http://goratchet.com/)、[Ant Design](http://ant.design/)、[Foundation](http://foundation.zurb.com/)、[Materialize](http://www.materialscss.com/)、[Material-UI](http://www.material-ui.com/)、[Angular Material](https://material.angularjs.org/latest/) |
-| DOM库           | zepto、jQuery                             |
-| 工具库            | lodash、underscore                        |
-| 模版引擎           | pug、Handlebars、Mustache                  |
-| 异步编程           | Async、Q、                                 |
-| 模块化            | ES6 Modules、Browserify（CommonJS）、RequireJS（AMD）、SeaJS（CMD）、KMD.js（KMD） |
-| MV* 框架         | React、Vue、Angular、Avalon                 |
-| 数据层框架          | Redux（redux-thunk/redux-promise）、[MobX](https://github.com/mobxjs/mobx)、Relay/graphQL |
-| Node.js 框架     | [Express](https://github.com/expressjs/express)、[Koa2](https://github.com/koajs/koa/tree/v2.x)、[Hapi](http://hapijs.com/) |
-| Node.js ORM 框架 | [Sequelize.js](https://github.com/sequelize/sequelize) |
-
 #### JavaScript 引擎
 
 | Browser, Headless Browser, or Runtime | JavaScript引擎                             |
@@ -273,7 +254,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 ### Mac或Linux系
 
-- 工具：[Term2](http://www.iterm2.com/)、[Vim](http://www.vim.org/download.php)、Git、[git-flow](https://github.com/nvie/gitflow)、[Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)、[Tmux](https://github.com/tmux/tmux)、[m-cli](https://github.com/rgcr/m-cli)、Nginx、htop、nmon
+- 工具：[Term2](http://www.iterm2.com/)、[Vim](http://www.vim.org/download.php)、Git、[git-flow](https://github.com/nvie/gitflow)、[Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)、[Tmux](https://github.com/tmux/tmux)、[MultiMarkdown](http://fletcherpenney.net/)、[m-cli](https://github.com/rgcr/m-cli)、Nginx、htop、nmon
 - iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 
 ### Windows系
