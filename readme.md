@@ -317,3 +317,5 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 8. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
 9. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
 10. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
+11. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
+12. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
