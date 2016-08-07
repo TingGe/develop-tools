@@ -302,8 +302,9 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 11. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
 12. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
 13. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
-14. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
-15. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
+14. [每个程序员都应该收藏的算法复杂度速查表](http://www.techug.com/bigo-cheatsheet)
+15. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
+16. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
 
 ### 工具
 
