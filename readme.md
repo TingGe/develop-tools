@@ -1,6 +1,6 @@
 # 匠心之路
 
-[TOC]
+
 
 > 我认为，科技公司是 “价值导向，业务选型，管理整合，技术创新” 的。
 
@@ -240,7 +240,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 包管理                    | NPM                                      |
 | ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |
 | 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
-| 端到端测试                  | [Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
+| 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
 | 单元测试                   | Mocha+Chai+Sinon、[Jest](https://github.com/facebook/jest) |
 | 代码覆盖率工具                | [Istanbul](https://github.com/gotwarlost/istanbul) |
 | 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |
