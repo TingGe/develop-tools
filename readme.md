@@ -246,7 +246,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |
 | 静态Web服务器               | [http-server](https://github.com/indexzero/http-server) |
 | 静态api                  | [json-server](https://github.com/typicode/json-server) |
-| 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark |
+| 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |
 | 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |
 | Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |
 | PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
