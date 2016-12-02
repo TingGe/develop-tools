@@ -71,7 +71,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 服务器端          | NodeJS                                   |
 | 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
 | 桌面应用          | [Electron](https://electron.atom.io/)    |
-| 移动端           | React Native、Hybrid App（Cordova + AngularJS + ionic） |
+| 移动端           | [React Native](https://facebook.github.io/react-native/)、Hybrid App（Cordova + AngularJS + ionic）、微信小应用 |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
 
@@ -232,26 +232,26 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 >
 > “图形用户界面让简单的任务更容易完成， 而命令行界面使完成复杂的任务成为可能”。
 
-| 分类                     | 内容                                       |
-| ---------------------- | ---------------------------------------- |
-| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |
-| JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |
-| 构建工具                   | NPM Scripts、Rollup、Webpack、Gulp、Grunt    |
-| 包管理                    | NPM                                      |
-| ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |
-| 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |
-| 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |
-| 单元测试                   | Mocha+Chai+Sinon、[Jest](https://github.com/facebook/jest) |
-| 代码覆盖率工具                | [Istanbul](https://github.com/gotwarlost/istanbul) |
-| 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |
-| 静态Web服务器               | [http-server](https://github.com/indexzero/http-server) |
-| 静态api                  | [json-server](https://github.com/typicode/json-server) |
-| 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |
-| 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |
-| Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |
-| PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |
-| WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |
-| 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |
+| 分类                     | 内容                                       | React系                                   |
+| ---------------------- | ---------------------------------------- | ---------------------------------------- |
+| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |                                          |
+| JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
+| 构建工具                   | NPM Scripts、Rollup、Gulp、Grunt            | [Webpack](https://webpack.github.io/)    |
+| 包管理                    | NPM                                      |                                          |
+| ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |                                          |
+| 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
+| 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |                                          |
+| 单元测试                   | Mocha+Chai+Sinon                         | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme) |
+| 代码覆盖率工具                | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
+| 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |                                          |
+| 静态Web服务器               | [http-server](https://github.com/indexzero/http-server) |                                          |
+| 静态api                  | [json-server](https://github.com/typicode/json-server) |                                          |
+| 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
+| 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |                                          |
+| Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |                                          |
+| PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |                                          |
+| WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |                                          |
+| 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |                                          |
 
 ### Mac或Linux系
 
