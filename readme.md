@@ -234,10 +234,10 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 | 分类                     | 内容                                       | React系                                   |
 | ---------------------- | ---------------------------------------- | ---------------------------------------- |
-| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） |                                          |
+| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Sublime、Atom                             |
 | JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
-| 构建工具                   | NPM Scripts、Rollup、Gulp、Grunt            | [Webpack](https://webpack.github.io/)    |
-| 包管理                    | NPM                                      |                                          |
+| 构建工具                   | NPM Scripts、Rollup、Gulp、Grunt            | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
+| 包管理                    | NPM                                      | NPM、Yarn                                 |
 | ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |                                          |
 | 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
 | 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |                                          |
