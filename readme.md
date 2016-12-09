@@ -249,7 +249,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
 | 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |                                          |
 | Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |                                          |
-| PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |                                          |
+| PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox          | [redux-logger](https://github.com/evgenyrodionov/redux-logger)、[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
 | WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |                                          |
 | 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
 
