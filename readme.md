@@ -251,7 +251,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |                                          |
 | PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox（扩展Firebug） |                                          |
 | WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |                                          |
-| 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor) |                                          |
+| 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
 
 ### Mac或Linux系
 
@@ -322,3 +322,4 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 10. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
 11. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
 12. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
+13. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
