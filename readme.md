@@ -243,12 +243,14 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |                                          |
 | 单元测试                   | Mocha+Chai+Sinon                         | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme) |
 | 代码覆盖率工具                | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
+| 将测试结果可视化               | Codecov                                  |                                          |
+| 持续集成                   | Travis CI                                |                                          |
 | 性能测试（页面响应时间、压测）        | loadrunner、jmeter                        |                                          |
 | 静态Web服务器               | [http-server](https://github.com/indexzero/http-server) |                                          |
 | 静态api                  | [json-server](https://github.com/typicode/json-server) |                                          |
 | 抓包和本地替换Web调试           | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
 | 嵌入式数据库                 | [NeDB](https://github.com/louischatriot/nedb) |                                          |
-| Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector) |                                          |
+| Node.js 调试             | [Node Inspector](https://github.com/node-inspector/node-inspector)、[debug](https://github.com/visionmedia/debug) |                                          |
 | PC Web调试               | Chrome（扩展Postman、FE助手等）、Firefox          | [redux-logger](https://github.com/evgenyrodionov/redux-logger)、[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
 | WebView和浏览器调试          | [DebugGap](http://www.debuggap.com/)     |                                          |
 | 部署                     | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
@@ -323,3 +325,4 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 11. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
 12. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
 13. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
+14. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
