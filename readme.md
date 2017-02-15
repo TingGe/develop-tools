@@ -35,7 +35,7 @@
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
 
 - 项目管理方式：Agile Project Management（Scrum、XP、Kanban、Lean）、PMP
-- 协调团队间工作：[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
+- 协调团队间工作：[ZenHub](https://www.zenhub.com/)、[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
@@ -47,7 +47,7 @@
 > 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 
 - 应用程序执行容器： [Docker](https://www.docker.com/)
-- 代码仓库：Github、[GitLab](https://about.gitlab.com/)
+- 代码仓库：Github([ZenHub for GitHub](https://www.zenhub.com/))、[GitLab](https://about.gitlab.com/)
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
