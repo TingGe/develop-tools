@@ -49,6 +49,7 @@
 - 应用程序执行容器： [Docker](https://www.docker.com/)
 - 代码仓库：Github([ZenHub for GitHub](https://www.zenhub.com/))、[GitLab](https://about.gitlab.com/)
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
+- 代码片段分享平台：[ESNextbin](https://esnextb.in/)、[RequireBin](http://requirebin.com/)、[React.run](http://www.react.run/)、[CodePen](http://codepen.io/)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [Trace](https://trace.risingstack.com/)
@@ -243,7 +244,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
 | 构建工具                   | NPM Scripts、Rollup、Gulp、Grunt            | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
 | 包管理                    | NPM                                      | NPM、Yarn                                 |
-| ES 6的 import 模块依赖可视化工具 | [webpack-graph](https://www.npmjs.com/package/webpack-graph) |                                          |
+| ES 6的 import 模块依赖可视化工具 |                                          |                                          |
 | 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
 | 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |                                          |
 | 单元测试                   | Mocha+Chai+Sinon                         | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme) |
