@@ -72,7 +72,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 服务器端          | NodeJS                                   |
 | 浏览器插件和扩展      | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
 | 桌面应用          | [Electron](https://electron.atom.io/)    |
-| 移动端           | [React Native](https://facebook.github.io/react-native/)、Hybrid App（Cordova + AngularJS + ionic）、微信小应用 |
+| 移动端           | [React Native](https://facebook.github.io/react-native/)、Hybrid App（Cordova + AngularJS + lonic）、Native、Weex、微信小应用 |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
 
@@ -240,14 +240,14 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 | 分类                     | 内容                                       | React系                                   |
 | ---------------------- | ---------------------------------------- | ---------------------------------------- |
-| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Sublime、Atom                             |
+| 开发工具                   | [Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Visual Studio Code、Sublime、Atom          |
 | JavaScript 代码风格        | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
-| 构建工具                   | NPM Scripts、Rollup、Gulp、Grunt            | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
+| 构建工具                   | NPM Scripts、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
 | 包管理                    | NPM                                      | NPM、Yarn                                 |
 | ES 6的 import 模块依赖可视化工具 |                                          |                                          |
 | 监控 Node.js 项目依赖        | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
 | 端到端测试                  | [Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) |                                          |
-| 单元测试                   | Mocha+Chai+Sinon                         | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme) |
+| 单元测试                   | [AVA](https://github.com/avajs/ava)、Mocha+Chai+Sinon | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme) |
 | 代码覆盖率工具                | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
 | 将测试结果可视化               | Codecov                                  |                                          |
 | 持续集成                   | Travis CI                                |                                          |
