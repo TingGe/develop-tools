@@ -53,7 +53,7 @@
 - 代码片段分享平台：[ESNextbin](https://esnextb.in/)、[RequireBin](http://requirebin.com/)、[React.run](http://www.react.run/)、[CodePen](http://codepen.io/)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）
-- 图标库：[CSSIcon](https://github.com/wentin/cssicon)
+- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [Trace](https://trace.risingstack.com/)
 - 实时数据一站式解决方案：ELK stack（[ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Kibana](https://www.elastic.co/downloads/kibana)）
@@ -189,6 +189,10 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 ### 数据结构与算法
 
 > 经典的有：8大排序算法和4大查找算法。
+
+[数据结构可视化](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+
 
 排序：直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
 
