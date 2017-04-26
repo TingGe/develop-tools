@@ -260,7 +260,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | Babel            |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
 | CSS 转换           |                                          | node-sass                                |
 | 多package.json 管理 | [Lerna](https://lernajs.io/)             |                                          |
-| 包管理              | NPM                                      | NPM、Yarn                                 |
+| 包管理              | [pnpm](https://github.com/pnpm/pnpm)、NPM、Yarn | tnpm                                     |
 | 依赖可视化工具          | [Webpack Visualizer](https://github.com/chrisbateman/webpack-visualizer)、[Webpack Chart](https://github.com/alexkuz/webpack-chart)、[robertknight/webpack-bundle-size-analyzer](robertknight/webpack-bundle-size-analyzer)、[stats-webpack-plugin](https://github.com/unindented/stats-webpack-plugin/)、   [webpack-analyse](http://webpack.github.io/analyse)、 | [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer) |
 | 监控 Node.js 项目依赖  | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
 | 代码静态检查           |                                          | eslint                                   |
