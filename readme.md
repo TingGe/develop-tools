@@ -81,16 +81,28 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 
 #### JavaScript 引擎
 
+JavaScript 引擎工作原理是，围绕抽象语法树（AST）， 大致分 parse > transform > generator 三步实现 JavaScript 代码到机器码的转换。
+
 | Browser, Headless Browser, or Runtime | JavaScript引擎                             |
 | ------------------------------------- | ---------------------------------------- |
 | Mozilla                               | [Spidermonkey](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey) |
 | Chrome                                | [V8](https://chromium.googlesource.com/v8/v8/) |
 | Safari                                | [JavaScriptCore](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore) |
 | IE and Edge                           | [Chakra](https://github.com/Microsoft/ChakraCore) |
-| PhantomJS                             | JavaScriptCore                           |
 | TrifleJS                              | V8                                       |
 | Node.js                               | V8                                       |
 | Ruff                                  | [Duktape](http://duktape.org/)           |
+
+#### JavaScript 编译器
+
+JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是 JavaScript 代码。
+
+如果想看下 AST 可以试下 [AST Explorer](https://astexplorer.net/) 。
+
+| JavaScript compiler                      | 功能        |
+| ---------------------------------------- | --------- |
+| [Babel](https://babeljs.io/)（含 [Babylon](https://github.com/babel/babylon)、[babel-traverse](https://www.npmjs.com/package/babel-traverse)、[babel-generator](https://www.npmjs.com/package/babel-generator) ） | ES6 转 ES5 |
+| [Lebab](https://lebab.io/)               | ES5 转 ES6 |
 
 ### 模式
 
@@ -287,6 +299,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 - 工具：[Term2](http://www.iterm2.com/)、[Vim](http://www.vim.org/download.php)、Git、[git-flow](https://github.com/nvie/gitflow)、[Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)、[Tmux](https://github.com/tmux/tmux)、[MultiMarkdown](http://fletcherpenney.net/)、[m-cli](https://github.com/rgcr/m-cli)、Nginx、htop、nmon
 - iOS移动页调试： Safari、Chrome、QQ浏览器、[MIHTool](http://www.mihtool.com/)、HttpWatch
 - 钉钉开发和调试：[PC端RC版](https://open-doc.dingtalk.com/doc2/detail?treeId=176&articleId=104958&docType=1)、[移动端开发版](https://open-doc.dingtalk.com/docs/doc.htm?treeId=171&articleId=104908&docType=1)、[免登接入](https://open-doc.dingtalk.com/docs/doc.htm?treeId=168&articleId=104878&docType=1)、[企业接入](https://open-doc.dingtalk.com/docs/doc.htm?treeId=174&articleId=104937&docType=1)
+- Android移动页调试： UC浏览器（参见 “[UC浏览器开发者中心](http://www.uc.cn/business/developer/)”）、微信WebView（参见 “[微信调试工具](http://blog.qqbrowser.cc/)”）
 - 一套键鼠同时控制多台电脑：[SynergyKM](http://synergykm.com/)、[Synergy](https://symless.com/synergy/)
 
 ### Windows系
@@ -294,7 +307,6 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 - 文档：XMLmind_XML_Editor
 - 工具：Babun、[GNVM](http://ksria.com/gnvm/)
 - PC Web调试：IE、Fiddler
-- Android移动页调试： UC浏览器（参见 “[UC浏览器开发者中心](http://www.uc.cn/business/developer/)”）、微信WebView（参见 “[微信调试工具](http://blog.qqbrowser.cc/)”）
 - 一套键鼠同时控制多台电脑：[Mouse without Borders](https://www.microsoft.com/en-us/download/details.aspx?id=35460)
 ## 附录
 
