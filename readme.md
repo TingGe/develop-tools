@@ -99,10 +99,12 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 如果想看下 AST 可以试下 [AST Explorer](https://astexplorer.net/) 。
 
-| JavaScript compiler                      | 功能        |
-| ---------------------------------------- | --------- |
-| [Babel](https://babeljs.io/)（含 [Babylon](https://github.com/babel/babylon)、[babel-traverse](https://www.npmjs.com/package/babel-traverse)、[babel-generator](https://www.npmjs.com/package/babel-generator) ） | ES6 转 ES5 |
-| [Lebab](https://lebab.io/)               | ES5 转 ES6 |
+| JavaScript compiler                      | 说明                                       |
+| ---------------------------------------- | ---------------------------------------- |
+| [Prepack](https://prepack.io/)           | 采用局部优化的思路。运行在AST级别，用Babel解析并生成JavaScript源代码 |
+| [Closure Compiler](https://developers.google.com/closure/compiler/) | Google 的 JavaScript 代码优化工具               |
+| [Babel](https://babeljs.io/)（含 [Babylon](https://github.com/babel/babylon)、[babel-traverse](https://www.npmjs.com/package/babel-traverse)、[babel-generator](https://www.npmjs.com/package/babel-generator) ） | ES6 转 ES5                                |
+| [Lebab](https://lebab.io/)               | ES5 转 ES6                                |
 
 ### 模式
 
