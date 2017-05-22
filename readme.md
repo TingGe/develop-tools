@@ -1,8 +1,12 @@
+[TOC]
+
 # 匠心之路
 
 > 观点：科技公司 “价值导向，业务选型（产品），管理（项目）整合，技术创新” 的。
 >
 > 做事心态：脚踏实地、仰望星空。
+>
+> 为人处事的哲学：道法术器势。“道以明向，法以立本，术以立策，势以立人，器以成事。”
 
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
@@ -292,7 +296,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | PC Web调试                    | Chrome（扩展[Advanced REST Client](https://github.com/jarrodek/ChromeRestClient)、FE助手等）、Firefox | [redux-logger](https://github.com/evgenyrodionov/redux-logger)（redux-devtools-log-monitor）、redux-devtools（ redux-devtools-dock-monitor、）[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
 | WebView和浏览器调试               | [DebugGap](http://www.debuggap.com/)     |                                          |
 | 预览响应式网页                     | [Sizzy](http://sizzy.co/)                |                                          |
-| Git hook                    |                                          | pre-commit                               |
+| Git hook                    |                                          | [pre-commit](https://github.com/observing/pre-commit) |
 | 部署                          | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
 | 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)       |                                          |
 
