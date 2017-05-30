@@ -273,6 +273,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | --------------------------- | ---------------------------------------- | ---------------------------------------- |
 | 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Visual Studio Code、Atom                  |
 | JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
+| 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
 | 构建工具                        | NPM Scripts、Webpack、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
 | WebPack 插件                  |                                          | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |
 | Babel                       |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
@@ -360,20 +361,21 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 工具
 
-1. [vim-web](https://github.com/jaywcjlove/vim-web)
-2. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
-3. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
-4. [什么是phantomJS？](http://div.io/topic/1413)
-5. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-6. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-7. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
-8. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
-9. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
-10. [commandlinefu](http://www.commandlinefu.com/)
-11. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
-12. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
-13. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
-14. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
-15. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
-16. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
-17. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
+1. [Fun with Codemod & AST](http://zhangbinliu.me/fun-with-codemod-and-ast/)
+2. [vim-web](https://github.com/jaywcjlove/vim-web)
+3. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
+4. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
+5. [什么是phantomJS？](http://div.io/topic/1413)
+6. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+7. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+8. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
+9. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
+10. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+11. [commandlinefu](http://www.commandlinefu.com/)
+12. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
+13. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
+14. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
+15. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
+16. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
+17. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
+18. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
