@@ -42,7 +42,8 @@
 - 协调团队间工作：[ZenHub](https://www.zenhub.com/)、[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
-- 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、百度脑图、XMind、Mindjet MindManager
+- 架构图：[OmniGraffle](https://www.omnigroup.com/omnigraffle/)
+- 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、XMind、Mindjet MindManager
 
 ## 研发
 
@@ -51,7 +52,7 @@
 > 大型应用的编程，一般会遇到性能墙和复杂度墙两类问题。
 
 - 应用程序执行容器： [Docker](https://www.docker.com/)
-- 代码仓库：Github([ZenHub for GitHub](https://www.zenhub.com/))、[GitLab](https://about.gitlab.com/)
+- 代码仓库：Github、[GitLab](https://about.gitlab.com/)
 - Git 代码库命令：[Git Pretty](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/git-pretty.jpg)
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 代码片段分享平台：[ESNextbin](https://esnextb.in/)、[RequireBin](http://requirebin.com/)、[React.run](http://www.react.run/)、[CodePen](http://codepen.io/)
@@ -83,19 +84,20 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
 
-#### JavaScript 引擎
+#### JavaScript 引擎 && 渲染引擎
 
 JavaScript 引擎工作原理是，围绕抽象语法树（AST）， 大致分 parse > transform > generator 三步实现 JavaScript 代码到机器码的转换。
 
-| Browser, Headless Browser, or Runtime | JavaScript引擎                             |
-| ------------------------------------- | ---------------------------------------- |
-| Mozilla                               | [Spidermonkey](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey) |
-| Chrome                                | [V8](https://chromium.googlesource.com/v8/v8/) |
-| Safari                                | [JavaScriptCore](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore) |
-| IE and Edge                           | [Chakra](https://github.com/Microsoft/ChakraCore) |
-| TrifleJS                              | V8                                       |
-| Node.js                               | V8                                       |
-| Ruff                                  | [Duktape](http://duktape.org/)           |
+| Browser, Headless Browser, or Runtime    | JavaScript引擎                             | 渲染引擎                                     |
+| ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| Mozilla                                  | [Spidermonkey](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey) | [Servo](https://github.com/servo/servo) 或  [Gecko](https://github.com/mozilla/gecko-dev) |
+| Chrome                                   | [V8](https://github.com/v8/v8)           | [Blink](https://chromium.googlesource.com/chromium/blink) |
+| Safari                                   | [JavaScriptCore](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore) | [Webkit](https://github.com/WebKit/webkit) |
+| IE and Edge                              | [Chakra](https://github.com/Microsoft/ChakraCore) | EdgeHTML 和  Trident                      |
+| TrifleJS                                 | V8                                       |                                          |
+| Node.js                                  | V8                                       |                                          |
+| [Node.js on ChakraCore](https://github.com/nodejs/node-chakracore) | [Chakra](https://github.com/Microsoft/ChakraCore) |                                          |
+| Ruff                                     | [Duktape](http://duktape.org/)           |                                          |
 
 #### JavaScript 编译器
 
