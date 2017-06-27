@@ -83,7 +83,9 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 移动端           | [React Native](https://facebook.github.io/react-native/)、Hybrid App（Cordova + AngularJS + lonic）、Native、Weex、微信小应用 |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
-| 机器学习          | [brain.js](https://github.com/harthur-org/brain.js) (神经网络)、[Synaptic](https://github.com/cazala/synaptic) (神经网络)、[Natural](https://github.com/NaturalNode/natural) (自然语言处理)、[ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) (卷积神经网络)、 [mljs](https://github.com/mljs) (一组具有多种功能的子库)、[Neataptic](http://dnn%20execution%20framework%20o/) (神经网络)、[Webdnn](https://github.com/mil-tokyo/webdnn) (深度学习) |
+| 机器学习          | [brain.js](https://github.com/harthur-org/brain.js) (神经网络)、[Synaptic](https://github.com/cazala/synaptic) (神经网络)、[Natural](https://github.com/NaturalNode/natural) (自然语言处理)、[ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) (卷积神经网络)、 [mljs](https://github.com/mljs) (一组具有多种功能的子库)、[Neataptic](http://dnn%20execution%20framework%20o/) (神经网络)、[Webdnn](https://github.com/mil-tokyo/webdnn) (深度学习)、[Deep playground](https://github.com/tensorflow/playground)、 [FlappyLearning](https://github.com/xviniette/FlappyLearning)、 [Land Lines](https://github.com/ofZach/landlines)、 [Thing Translator](https://github.com/dmotz/thing-translator)、 [Neurojs](https://github.com/janhuenermann/neurojs)、 [Machine_learning](https://github.com/junku901/machine_learning)、[DeepForge](https://github.com/deepforge-dev/deepforge)、[Keras.js](https://transcranial.github.io/keras-js) |
+
+附：[Machine Learning in Javascript: Introduction](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/)
 
 #### JavaScript 引擎 && 渲染引擎
 
