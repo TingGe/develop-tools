@@ -83,6 +83,7 @@ JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很�
 | 移动端           | [React Native](https://facebook.github.io/react-native/)、Hybrid App（Cordova + AngularJS + lonic）、Native、Weex、微信小应用 |
 | 游戏            | Cocos2d-js、Unity3D、Pomelo、Bearcat        |
 | 物联网           | [Cylon](https://cylonjs.com/)、Arduino、Tessel、[Ruff](https://ruff.io/zh-cn/) |
+| 机器学习          | [brain.js](https://github.com/harthur-org/brain.js) (神经网络)、[Synaptic](https://github.com/cazala/synaptic) (神经网络)、[Natural](https://github.com/NaturalNode/natural) (自然语言处理)、[ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) (卷积神经网络)、 [mljs](https://github.com/mljs) (一组具有多种功能的子库)、[Neataptic](http://dnn%20execution%20framework%20o/) (神经网络)、[Webdnn](https://github.com/mil-tokyo/webdnn) (深度学习) |
 
 #### JavaScript 引擎 && 渲染引擎
 
@@ -344,22 +345,24 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 技术
 
-1. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
-2. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
-3. [2016年的前端技术栈展望](http://www.ido321.com/1669.html)
-4. [有前景、有钱途 2016前端开发领域趋势](http://tech.it168.com/a2016/0719/2800/000002800376.shtml)
-5. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
-6. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
-7. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
-8. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
-9. [前端人应该知道的排序知识](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484016&idx=1&sn=cbe489e36893e389cab912ee4c4946d4)
-10. [浅谈 JavaScript 处理树形结构的几个场景与方案](https://github.com/Lucifier129/Lucifier129.github.io/issues/4)
-11. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
-12. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
-13. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
-14. [每个程序员都应该收藏的算法复杂度速查表](http://www.techug.com/bigo-cheatsheet)
-15. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
-16. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
+1. [Machine Learning with JavaScript](https://hackernoon.com/machine-learning-with-javascript-part-1-9b97f3ed4fe5)
+2. [大前端公共知识梳理：这些知识你都掌握了吗？](https://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247485277&idx=1&sn=82703e13febb1e7947cc18d1f57fc375&srcid=0625maMWOy3ZeCOAJZhSjLvm)
+3. [JavaScript生态圈现状：初学者地图](http://www.infoq.com/cn/articles/state-of-javascript-2016)
+4. [近几年前端技术盘点以及 2016 年技术发展方向](http://taobaofed.org/blog/2016/01/04/font-end-tech-inventory/)
+5. [2016年的前端技术栈展望](http://www.ido321.com/1669.html)
+6. [有前景、有钱途 2016前端开发领域趋势](http://tech.it168.com/a2016/0719/2800/000002800376.shtml)
+7. [JavaScript 就要统治世界了？](https://segmentfault.com/a/1190000003767058)
+8. [Linux 发展史小览](http://m.blog.csdn.net/article/details?id=50822128)
+9. [程序员必须知道的8大排序和3大查找](http://www.cr173.com/html/15301_all.html)
+10. [8大排序算法总结 JS 实现](http://m.2cto.com/kf/201412/360965.html)
+11. [前端人应该知道的排序知识](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484016&idx=1&sn=cbe489e36893e389cab912ee4c4946d4)
+12. [浅谈 JavaScript 处理树形结构的几个场景与方案](https://github.com/Lucifier129/Lucifier129.github.io/issues/4)
+13. [数据结构-图(带权图)(js)](http://www.cnblogs.com/Clingingboy/archive/2010/08/15/1800265.html)
+14. [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)
+15. [程序员观点下的线性代数](http://www.cnblogs.com/weidagang2046/p/linear-algebra-from-programming-perspective.html)
+16. [每个程序员都应该收藏的算法复杂度速查表](http://www.techug.com/bigo-cheatsheet)
+17. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
+18. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
 
 ### 工具
 
