@@ -276,7 +276,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 | 分类                          | 内容                                       | React系                                   |
 | --------------------------- | ---------------------------------------- | ---------------------------------------- |
-| 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Visual Studio Code、Atom                  |
+| 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可）、[reactide](https://github.com/reactide/reactide) | Visual Studio Code、Atom                  |
 | JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
 | 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
 | 构建工具                        | NPM Scripts、Webpack、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
