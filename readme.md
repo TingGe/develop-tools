@@ -132,6 +132,8 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 5. 与外部结构的分离
 
 
+#### 软件设计架构
+
 
 |                                          | 提出时间      | 作者                                       | 说明                                       | 落地实例                                     |
 | ---------------------------------------- | --------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
@@ -142,6 +144,8 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | MVC                                      | 1978      | [Trygve Reenskaug](https://zh.wikipedia.org/w/index.php?title=Trygve_Reenskaug&action=edit&redlink=1) | MVC模式在概念上强调 Model, View, Controller 的职责分离。 MVC 应用时会产生很多文件，但带来的可测试性、可扩充性和可维护性，利于单元测试、自动化测试、CI和持续发布 | Smalltalk、Java、.NET、Ruby，JavaScript，Python，PHP，ActionScript 3 |
 | DCI                                      | 2000—2008 | James Coplien和Trygve Reenskaug           | DCI 是 MVC 的一种补充。MVC 作为一种范式语言继续用于分离数据和对数据的处理和对数据的展现。OO 衍生出很多概念、模式，DCI 为解决 OO 及 MVC 存在的这些问题而提出。 它试图在 OO 和数据结构+算法的模型寻求平衡，引入函数式编程的概念来解决 OO 中存在的一些问题。常见的概念，如 Mixins、Multiple dispatch、 Dependency injection、Multi-paradigm design、 [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) (AOP)、 [Role-oriented programming](https://en.wikipedia.org/wiki/Role-oriented_programming) 等 | Self、Smalltalk-Squeak，C ++，C＃，Ruby，JavaScript，Python，Qi4J（Java）， Scala，Perl和PHP |
 | BCE模式（Boundary-Control-Entity Patterns）  | ？         | Ivar Jacobson                            | 跟著名的MVC模式（Model-View-Control Pattern）概念相似。将对象分为三类：边界类（boundary class，隔离系统内外）、控制类（control class，控制用例执行期间的复杂运算或者业务逻辑）和实体类（entity class，对应领域概念的类，主要用来保存问题领域中的重要信息，封装了跟数据结构和数据存储有关的变化） |                                          |
+
+附一张 [对比 BCE、MVC 和 3-Tier 的图](./img/VH0W5.jpg)。
 
 #### 展示模式架构
 
