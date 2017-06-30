@@ -115,7 +115,45 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | [Babel](https://babeljs.io/)（含 [Babylon](https://github.com/babel/babylon)、[babel-traverse](https://www.npmjs.com/package/babel-traverse)、[babel-generator](https://www.npmjs.com/package/babel-generator) ） | ES6 转 ES5                                |
 | [Lebab](https://lebab.io/)               | ES5 转 ES6                                |
 
-### 模式
+### 软件设计模式
+
+> 维基百科：[软件设计模式](https://zh.wikipedia.org/wiki/Category:%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+>
+> 秉持最简单的**分层**和**依赖规则**开发，就能开发出干净整洁的系统架构。
+
+虽然这些架构在细节处都有一些变化，但是实际上，它们是非常相似的。它们的目标是一样的，将各种实体间的关系进行分离。它们分离操作的方法也是一样的，采用软件分层的方式。它们分的层中至少有一个业务逻辑层，并且有其他的接口层。——摘取自《[架构整洁之道](http://www.cnblogs.com/yjf512/archive/2012/09/10/2678313.html)》
+
+架构特征：
+
+1. 与框架分离
+2. 可测试性
+3. 与UI的分离
+4. 与数据库的分离
+5. 与外部结构的分离
+
+
+
+|                                          | 提出时间      | 作者                                       | 说明                                       | 落地实例                                     |
+| ---------------------------------------- | --------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| [DDD(Domain-driven design)](https://en.wikipedia.org/wiki/Domain-driven_design)/[命令和查询责任分离（CQRS）](http://martinfowler.com/bliki/CQRS.html) | 2004      | Eric Evans/Greg Young                    | DDD 将软件开发分两个阶段：需求交流中发现领域概念，设计成领域模型；由领域模型驱动软件设计，代码实现领域模型。 CQRS  将应用分为：查询部分（查看模型）和命令部分（写入模型）。 业务逻辑层两个组件相互独立地运行。因此，读取模型（Read Model）将会处理用户的查询——在处理能力方面的要求会更少一些，而写入模型（Write Model）将会经历一个很长的处理路径，包括校验、队列、消息以及用户命令要执行的业务规则处理。 | Flux                                     |
+| 六边形架构Hexagonal Architecture (也称为 端口和[适配器](http://cpro.baidu.com/cpro/ui/uijs.php?rs=1&u=http%3A%2F%2Fwww%2Ejdon%2Ecom%2Fartichect%2Fthe%2Dclean%2Darchitecture%2Ehtml&p=baidu&c=news&n=10&t=tpclicked3_hc&q=banq_cpr&k=%CA%CA%C5%E4%C6%F7&k0=%CA%FD%BE%DD%BF%E2&kdi0=8&k1=%BF%D8%D6%C6%C6%F7&kdi1=8&k2=%D4%B4%B4%FA%C2%EB&kdi2=1&k3=%CA%CA%C5%E4%C6%F7&kdi3=1&k4=sql&kdi4=8&sid=1e7c4ea576ec9f0b&ch=0&tu=u1683405&jk=bd19187c218e7435&cf=29&fv=14&stid=9&urlid=0&luki=4&seller_id=1&di=128)) | 2005      | [Alistair Cockburn](http://alistair.cockburn.us/Hexagonal+architecture) | 包括三个层，其中最关键是的**领域模型**，包括所有的应用逻辑与规则。在领域层中不会直接引用技术实现。 包围在领域层之外的是**端口层**，负责接收与用例相关的所有请求，这些请求负责在领域层中协调工作。端口层在端口内部作为领域层的边界，在端口外部则扮演了外部实体的角色。 在端口层之外的是**适配器层**，这一层的技术实现负责以某种格式接收输入、及产生输出 |                                          |
+| [洋葱图架构 The Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) | 2006      | [Jeffrey Palermo](http://jeffreypalermo.com/blog/onion-architecture-part-4-after-four-years/) | 和六边形架构一脉相承，可理解为六边形架构的子集。 常和DDD一起使用。以领域模型为中心，从里到外是**领域模型、领域服务、应用服务**，外面的都会用到里面的内容，最外围的是容易变化的内容，如界面、测试和基础设施（如数据存储等） |                                          |
+| [Clean架构](https://www.bbsmax.com/A/pRdBWY3ezn/) | 2012      | [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/) | 可看作六边形架构的衍生， 和 The Onion Architecture 异曲同工，对组织大型应用很有参考价值，也有很多语言在实践 |                                          |
+| MVC                                      | 1978      | [Trygve Reenskaug](https://zh.wikipedia.org/w/index.php?title=Trygve_Reenskaug&action=edit&redlink=1) | MVC模式在概念上强调 Model, View, Controller 的职责分离。 MVC 应用时会产生很多文件，但带来的可测试性、可扩充性和可维护性，利于单元测试、自动化测试、CI和持续发布 | Smalltalk、Java、.NET、Ruby，JavaScript，Python，PHP，ActionScript 3 |
+| DCI                                      | 2000—2008 | James Coplien和Trygve Reenskaug           | DCI 是 MVC 的一种补充。MVC 作为一种范式语言继续用于分离数据和对数据的处理和对数据的展现。OO 衍生出很多概念、模式，DCI 为解决 OO 及 MVC 存在的这些问题而提出。 它试图在 OO 和数据结构+算法的模型寻求平衡，引入函数式编程的概念来解决 OO 中存在的一些问题。常见的概念，如 Mixins、Multiple dispatch、 Dependency injection、Multi-paradigm design、 [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) (AOP)、 [Role-oriented programming](https://en.wikipedia.org/wiki/Role-oriented_programming) 等 | Self、Smalltalk-Squeak，C ++，C＃，Ruby，JavaScript，Python，Qi4J（Java）， Scala，Perl和PHP |
+| BCE模式（Boundary-Control-Entity Patterns）  | ？         | Ivar Jacobson                            | 跟著名的MVC模式（Model-View-Control Pattern）概念相似。将对象分为三类：边界类（boundary class，隔离系统内外）、控制类（control class，控制用例执行期间的复杂运算或者业务逻辑）和实体类（entity class，对应领域概念的类，主要用来保存问题领域中的重要信息，封装了跟数据结构和数据存储有关的变化） |                                          |
+
+#### 展示模式架构
+
+| 展示模式架构  | 说明   |      |
+| ------- | ---- | ---- |
+| MVP(SC) |      |      |
+| MVP(PV) |      |      |
+| PM      |      |      |
+| MVVM    |      |      |
+| MVC     |      |      |
+
+#### 模式
 
 > 模式，帮助你设计API、搭建代码架构、优化性能
 
@@ -344,6 +382,16 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 3. [JavaScript Patterns](https://github.com/TooBug/javascript.patterns)
 4. [我的ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
 5. [写给想做前端的你](http://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650208205&idx=1&sn=fe8d7359a76157dcc8be2937309b9575)
+
+### 架构
+
+1. [Comparison of Architecture presentation patterns MVP(SC),MVP(PV),PM,MVVM and MVC](https://www.codeproject.com/Articles/66585/Comparison-of-Architecture-presentation-patterns-M)
+2. [The DCI Architecture: A New Vision of Object-Oriented Programming](http://www.artima.com/articles/dci_vision.html)
+3. [干净的架构The Clean Architecture](https://www.bbsmax.com/A/pRdBWY3ezn/)
+4. [MVC的替代方案](https://gxnotes.com/article/71237.html)
+5. [展示模式架构比较MVP(SC)，MVP(PV)，PM，MVVM和MVC](http://blog.csdn.net/lihenair/article/details/51791915)
+6. [Software Architecture Design](https://github.com/zenany/weekly/blob/master/resources/software_architecture.md)
+7. [【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）](https://blog.jimmylv.info/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/)
 
 ### 技术
 
