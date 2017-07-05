@@ -254,11 +254,19 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 数据结构与算法
 
+#### 算法与高级编程语言的关系
+
+算法在高级语言发展了很多年之后，更多地被封装成了独立的函数或者独立的类，开放接口供人调用，然而算法封装得再好也是不能不假思索地使用就能获益的东西，要知道，这些封装只是在一定程度上避免了重复发明轮子而已。
+
+举个实例：JavaScript中数组的sort方法的排序算法，在默认情况下，是由浏览器而不是JavaScript底层决定的。Chrome的JavaScript引擎**v8**，采用不稳定的快速排序算法（看[源代码](https://github.com/v8/v8/blob/master/src/js/array.js#L755)）；Microsoft Edge的JavaScript引擎**Chakra**，采用不稳定的快速排序算法（看[源代码](https://github.com/Microsoft/ChakraCore/blob/master/lib/Common/DataStructures/QuickSort.h)）；Firefox的JavaScript引擎**SpiderMoney**，采用稳定的归并排序算法（[相关Bug讨论](https://bugzilla.mozilla.org/show_bug.cgi?id=715181)）。
+
+《孙子兵法·作战篇》有云，“不尽知用兵之害者，则不能尽知用兵之利”，意思是说，不对用兵打仗的坏处与弊端进行充分了解同样不可能对用兵打仗的好处有足够的认识。算法的应用是一个辩证的过程，不仅在于不同算法间的比较和搭配使用有着辩证关系，在同一个算法中，不同的参数和阈值设置同样会带来大相径庭的结果，甚至影响数据解读的科学性。这一点请大家务必有所注意。
+
+#### 算法正文
+
 > 经典的有：8大排序算法和4大查找算法。
 
 [数据结构可视化](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-
-
 
 排序：直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
 
@@ -418,6 +426,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 16. [每个程序员都应该收藏的算法复杂度速查表](http://www.techug.com/bigo-cheatsheet)
 17. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
 18. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
+19. [聊聊前端排序的那些事](http://efe.baidu.com/blog/talk-about-sort-in-front-end/)
 
 ### 工具
 
