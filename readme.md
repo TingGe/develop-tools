@@ -57,7 +57,7 @@
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 架构图：[OmniGraffle](https://www.omnigroup.com/omnigraffle/)
-- 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、XMind、Mindjet MindManager
+- 会议与头脑风暴：[Draw.io](https://www.draw.io/)、[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、MindNode、XMind、Mindjet MindManager
 - 前后端分离后的契约：[Swagger](https://github.com/swagger-api/swagger-codegen)
 
 ## 研发
@@ -376,6 +376,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 - 钉钉开发和调试：[PC端RC版](https://open-doc.dingtalk.com/doc2/detail?treeId=176&articleId=104958&docType=1)、[移动端开发版](https://open-doc.dingtalk.com/docs/doc.htm?treeId=171&articleId=104908&docType=1)、[免登接入](https://open-doc.dingtalk.com/docs/doc.htm?treeId=168&articleId=104878&docType=1)、[企业接入](https://open-doc.dingtalk.com/docs/doc.htm?treeId=174&articleId=104937&docType=1)
 - Android移动页调试： UC浏览器（参见 “[UC浏览器开发者中心](http://www.uc.cn/business/developer/)”）、微信WebView（参见 “[微信调试工具](http://blog.qqbrowser.cc/)”）
 - 一套键鼠同时控制多台电脑：[SynergyKM](http://synergykm.com/)、[Synergy](https://symless.com/synergy/)
+- 时间效率管理：RescueTime、WakaTime
 
 ### Windows系
 
@@ -441,22 +442,23 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 工具
 
-1. [VS Code](http://www.cnblogs.com/zhaoqingqing/p/vscode.html)：把vs code的数据托管在github的gist服务器
-2. [Fun with Codemod & AST](http://zhangbinliu.me/fun-with-codemod-and-ast/)
-3. [vim-web](https://github.com/jaywcjlove/vim-web)
-4. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
-5. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
-6. [什么是phantomJS？](http://div.io/topic/1413)
-7. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-8. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-9. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
-10. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
-11. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
-12. [commandlinefu](http://www.commandlinefu.com/)
-13. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
-14. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
-15. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
-16. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
-17. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
-18. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
-19. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
+1. [有没有人开发自我监测统计软件？](https://www.zhihu.com/question/23892513)
+2. [VS Code](http://www.cnblogs.com/zhaoqingqing/p/vscode.html)：把vs code的数据托管在github的gist服务器
+3. [Fun with Codemod & AST](http://zhangbinliu.me/fun-with-codemod-and-ast/)
+4. [vim-web](https://github.com/jaywcjlove/vim-web)
+5. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
+6. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
+7. [什么是phantomJS？](http://div.io/topic/1413)
+8. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+9. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+10. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
+11. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
+12. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+13. [commandlinefu](http://www.commandlinefu.com/)
+14. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
+15. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
+16. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
+17. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
+18. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
+19. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
+20. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
