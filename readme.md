@@ -8,6 +8,10 @@
 >
 > 为人处事的哲学：道法术器势。“道以明向，法以立本，术以立策，势以立人，器以成事。”
 
+### 前言
+
+本文重点偏于“器”，然而“道可道，非常道”，术可以学，道只能靠悟。希望大家通过砺器、学术，悟出安家立业的道。以此共勉。
+
 以下是根据我曾经所在公司的经历总结，供研发团队参考。以通用优先，各平台特有补充。后续会随时调整补充。
 
 ## 企业
@@ -37,14 +41,24 @@
 ## 团队协作（项目管理）
 
 > 团队协作的核心是项目管理，其他工具需要配合项目管理平台来选择。
+>
+> 利益相关者：发起方、项目经理、产品、交互、视觉、前端和后端
+>
+> 最佳实践的3个平台：PRD和Demo分享平台；整合了Sketch、图标库、可输出npm包和（SVG格式）设计稿分发的 Living Style Guide 平台；需求和缺陷跟踪平台
 
-- 项目管理方式：Agile Project Management（Scrum、XP、Kanban、Lean）、PMP
+- 项目管理方式：Agile Project Management（Scrum、Kanban、XP、Lean）、PMP
 - 协调团队间工作：[ZenHub](https://www.zenhub.com/)、[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 任务排期：[OmniPlan](https://www.omnigroup.com/omniplan)、[Microsoft Project](https://products.office.com/en-us/project/project-and-portfolio-management-software)
+- PRD 协作和分享平台：OmniGraffle、Axure
+- 交互稿：Sketch、
+- 原型：Axure、[Fuse](https://www.fusetools.com/)
+- Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）、[Styleguide](https://github.com/hugeinc/styleguide/)、Styleguide
+- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 架构图：[OmniGraffle](https://www.omnigroup.com/omnigraffle/)
 - 会议与头脑风暴：[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、XMind、Mindjet MindManager
+- 前后端分离后的契约：[Swagger](https://github.com/swagger-api/swagger-codegen)
 
 ## 研发
 
@@ -57,9 +71,6 @@
 - Git 代码库命令：[Git Pretty](https://raw.githubusercontent.com/TingGe/develop-tools/master/img/git-pretty.jpg)
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 代码片段分享平台：[ESNextbin](https://esnextb.in/)、[RequireBin](http://requirebin.com/)、[React.run](http://www.react.run/)、[CodePen](http://codepen.io/)
-- 原型：Axure、[Fuse](https://www.fusetools.com/)
-- Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）
-- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [Trace](https://trace.risingstack.com/)
 - 实时数据一站式解决方案：ELK stack（[ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Kibana](https://www.elastic.co/downloads/kibana)）
