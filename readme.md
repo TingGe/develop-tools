@@ -377,6 +377,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 - Android移动页调试： UC浏览器（参见 “[UC浏览器开发者中心](http://www.uc.cn/business/developer/)”）、微信WebView（参见 “[微信调试工具](http://blog.qqbrowser.cc/)”）
 - 一套键鼠同时控制多台电脑：[SynergyKM](http://synergykm.com/)、[Synergy](https://symless.com/synergy/)
 - 时间效率管理：RescueTime、WakaTime
+- 前端工作流客户端：[LegoFlow](https://github.com/legoflow/legoflow)
 
 ### Windows系
 
