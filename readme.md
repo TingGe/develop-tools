@@ -53,7 +53,7 @@
 - 交互稿：Sketch、
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）、[Styleguide](https://github.com/hugeinc/styleguide/)、Styleguide
-- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)
+- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)、[icons8 animated icons](https://github.com/icons8/titanic)
 - 文件共享服务：NAS
 - 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
 - 架构图：[OmniGraffle](https://www.omnigroup.com/omnigraffle/)
@@ -391,14 +391,12 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 1. [擦亮眼睛－如何选择创业公司](https://mp.weixin.qq.com/s?__biz=MzI3MDE0MzAzMw==&mid=2652201810&idx=1&sn=075b31abfaed597f222cbedccb02ab70)
 2. [CTO、技术总监、首席架构师的区别](http://mp.weixin.qq.com/s?__biz=MjM5Njk2Mzg0MQ==&mid=2651072525&idx=1&sn=4a5147a1fe70e3531891caf8fba29bb6)
 3. [「2016码会」张一鸣：为何不赞同控制人力成本](https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649506988&idx=1&sn=926c4f3c79dd1d91a0b452bb889d1221)
-4. [写不写代码？怎么才能算是称职的CTO？](http://www.cyzone.cn/a/20160828/302956.html)
-5. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
-6. [如何培养高薪人士的逻辑思维力](https://mp.weixin.qq.com/s?__biz=MzA4NzgxMzQzMA==&mid=2654157986&idx=1&sn=225526ec705084c12a400a9a74dbafde)
-7. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
-8. [万恶的PM是推动程序员技术不断进步的不竭动力](http://www.jianshu.com/p/ebd7a8b9bff9)
-9. [Agile Project Management For Dummies](http://www.dummies.com/go/agileprojectmanagementfd)
-10. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
-11. [你离升职加薪就差这份总结报告了](http://mp.weixin.qq.com/s?__biz=MzA5NDk4NDM0OA==&mid=2653175942&idx=1&sn=912f4d394bcfc5e3fe0fcddfe201c16f)
+4. [初出茅庐的IT人员，怎样才能做好项目经理？](http://www.jianshu.com/p/2f737f8fe75f)
+5. [如何培养高薪人士的逻辑思维力](https://mp.weixin.qq.com/s?__biz=MzA4NzgxMzQzMA==&mid=2654157986&idx=1&sn=225526ec705084c12a400a9a74dbafde)
+6. [阿里内部培训负责人：全方位揭秘阿里面试、晋升、层级、培训体系](http://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&mid=402806994&idx=1&sn=77d8fda6912c16a617e82229e8cc1a52&scene=23&srcid=0319fD0Qyeu9idm7xvmZbbiY#rd)
+7. [这才叫真正的需求管理](http://www.jianshu.com/p/507fea3e2a20)
+8. [你离升职加薪就差这份总结报告了](http://mp.weixin.qq.com/s?__biz=MzA5NDk4NDM0OA==&mid=2653175942&idx=1&sn=912f4d394bcfc5e3fe0fcddfe201c16f)
+9. [【第987期】团队技术信息流建设](https://mp.weixin.qq.com/s/3XG_8U9RPrPjtzJJGG5k7w)
 
 ### 研发
 
