@@ -53,9 +53,9 @@
 - 交互稿：Sketch + [Marketch](https://github.com/tudou527/marketch)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)
 - Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）、[Styleguide](https://github.com/hugeinc/styleguide/)、Styleguide
-- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)、[icons8 animated icons](https://github.com/icons8/titanic)
+- 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)、[icons8 animated icons](https://github.com/icons8/titanic)、
 - 文件共享服务：NAS
-- 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office
+- 文档：[Typora](https://typora.io)、[Evernote](https://www.evernote.com/)、MS Office、[Laverna](https://github.com/Laverna/laverna)（私有云笔记）
 - 架构图：[OmniGraffle](https://www.omnigroup.com/omnigraffle/)
 - 会议与头脑风暴：[Draw.io](https://www.draw.io/)、[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、MindNode、XMind、Mindjet MindManager
 - 前后端分离后的契约：[Swagger](https://github.com/swagger-api/swagger-codegen)
