@@ -341,7 +341,8 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 - 资源管理：模块化、组件化、依赖管理等
 - 开发流程：dev、debug、proxy、build、deploy
 - 周边工具：图形化界面、命令行辅助、自动化工程
-- 图片转css：[img2css](https://github.com/javierbyte/img2css)
+- 图片转 css：[img2css](https://github.com/javierbyte/img2css)
+- 本地 Host 切换：[SwitchHosts](https://github.com/oldj/SwitchHosts)
 
 | 分类                          | 内容                                       | React系                                   |
 | --------------------------- | ---------------------------------------- | ---------------------------------------- |
