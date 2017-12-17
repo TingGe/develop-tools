@@ -43,6 +43,7 @@
 > 最佳实践的3个平台：PRD和Demo分享平台；整合了Sketch、图标库、可输出npm包和（SVG格式）设计稿分发的 Living Style Guide 平台；需求和缺陷跟踪平台
 
 - 项目管理方式：Agile Project Management（Scrum、Kanban、XP、Lean）、PMP
+- 时间管理：[RescueTime](https://www.rescuetime.com/)
 - 协调团队间工作：[ZenHub](https://www.zenhub.com/)、[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 任务排期：[OmniPlan](https://www.omnigroup.com/omniplan)、[Microsoft Project](https://products.office.com/en-us/project/project-and-portfolio-management-software)
 - PRD 协作和分享平台：OmniGraffle
