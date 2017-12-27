@@ -350,7 +350,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | 在线 IDE                      | [Sourcegraph](https://sourcegraph.com/)、 [StackBlitz](https://stackblitz.com/) |                                          |
 | JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
 | 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
-| 构建工具                        | NPM Scripts、Webpack、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
+| 构建工具                        | [Parcel](https://github.com/parcel-bundler/parcel)、Webpack、NPM Scripts、Rollup、Gulp、Browserify、Brunch、Grunt | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
 | WebPack 插件                  |                                          | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |
 | Babel                       |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
 | CSS 转换                      |                                          | node-sass                                |
