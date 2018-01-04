@@ -98,6 +98,7 @@
 - 代码审核：[Phabricator](https://github.com/phacility/phabricator)
 - 代码片段分享平台：[ESNextbin](https://esnextb.in/)、[RequireBin](http://requirebin.com/)、[React.run](http://www.react.run/)、[CodePen](http://codepen.io/)
 - 规范：[语义化版本 2.0.0](http://semver.org/lang/zh-CN/)、[表述性状态转移（RESTful API）](http://www.ituring.com.cn/tupubarticle/3790)、面向服务架构（SOA）、远程过程调用（RPC）
+- 发布并测试的持续集成工具: Jenkins、Travis CI 和 Circle CI
 - 监控应用：[Zabbix](http://www.zabbix.com/)、[Collected](https://collectd.org/)、 [Trace](https://trace.risingstack.com/)
 - 实时数据一站式解决方案：ELK stack（[ElasticSearch](https://www.elastic.co/products/elasticsearch)、[Logstash](https://www.elastic.co/products/logstash)、[Kibana](https://www.elastic.co/downloads/kibana)）
 - 移动测试缺陷发现和管理：[Bugtags](https://www.bugtags.com/)、[Fabric](https://get.fabric.io/)
@@ -368,38 +369,38 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 - 图片转 css：[img2css](https://github.com/javierbyte/img2css)
 - 本地 Host 切换：[SwitchHosts](https://github.com/oldj/SwitchHosts)
 
-| 分类                          | 内容                                       | React系                                   |
-| --------------------------- | ---------------------------------------- | ---------------------------------------- |
-| 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Visual Studio Code（安装 Settings Sync，同步 `https://gist.github.com/TingGe/0f810bc2065f88493b8bee67710aef11`即可）、[reactide](https://github.com/reactide/reactide) |
-| 在线 IDE                      | [Sourcegraph](https://sourcegraph.com/)、 [StackBlitz](https://stackblitz.com/) |                                          |
-| JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
-| 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
-| 构建工具                        | [Parcel](https://github.com/parcel-bundler/parcel)、Webpack、NPM Scripts、Rollup、Gulp、Browserify、Brunch、Grunt | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
-| WebPack 插件                  |                                          | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |
-| Babel                       |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
-| CSS 转换                      |                                          | node-sass                                |
-| 多package.json 管理            | [Lerna](https://lernajs.io/)             |                                          |
-| 包管理                         | [pnpm](https://github.com/pnpm/pnpm)、NPM、Yarn | tnpm                                     |
-| 依赖可视化工具                     | [Webpack Visualizer](https://github.com/chrisbateman/webpack-visualizer)、[Webpack Chart](https://github.com/alexkuz/webpack-chart)、[robertknight/webpack-bundle-size-analyzer](robertknight/webpack-bundle-size-analyzer)、[stats-webpack-plugin](https://github.com/unindented/stats-webpack-plugin/)、   [webpack-analyse](http://webpack.github.io/analyse)、 | [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer) |
-| 监控 Node.js 项目依赖             | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
-| 代码静态检查                      |                                          | eslint                                   |
-| 端到端测试                       | [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome)、[Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) | jasmine-core、 karma（ karma-chrome-launcher、 karma-jasmine、 karma-sourcemap-loader、 karma-webpack） |
-| 单元测试                        | [AVA](https://github.com/avajs/ava)、Mocha+Chai+Sinon | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme)、 react-addons-test-utils、 react-test-renderer |
-| 代码覆盖率工具                     | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
-| 将测试结果可视化                    | Codecov                                  |                                          |
-| 持续集成                        | Travis CI                                |                                          |
-| 性能测试（页面响应时间、压测）             | loadrunner、jmeter                        |                                          |
-| 静态Web服务器                    | [http-server](https://github.com/indexzero/http-server) |                                          |
-| 静态api                       | [json-server](https://github.com/typicode/json-server) |                                          |
-| 抓包和本地替换Web调试                | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
-| 嵌入式数据库                      | [NeDB](https://github.com/louischatriot/nedb) |                                          |
-| Node.js 调试                  | [Node Inspector](https://github.com/node-inspector/node-inspector)、[debug](https://github.com/visionmedia/debug) |                                          |
-| PC Web调试                    | Chrome（扩展[Advanced REST Client](https://github.com/jarrodek/ChromeRestClient)、FE助手等）、Firefox | [redux-logger](https://github.com/evgenyrodionov/redux-logger)（redux-devtools-log-monitor）、redux-devtools（ redux-devtools-dock-monitor、）[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
-| WebView和浏览器调试               | [DebugGap](http://www.debuggap.com/)     |                                          |
-| 预览响应式网页                     | [Sizzy](http://sizzy.co/)                |                                          |
-| Git hook                    |                                          | [pre-commit](https://github.com/observing/pre-commit)、 [lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky) |
-| 部署                          | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
-| 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)       |                                          |
+| 分类                          | 内容                                       | React系                                   | 说明                                       |
+| --------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可） | Visual Studio Code（安装 Settings Sync，同步 `https://gist.github.com/TingGe/0f810bc2065f88493b8bee67710aef11`即可）、[reactide](https://github.com/reactide/reactide) |                                          |
+| 在线 IDE                      | [Sourcegraph](https://sourcegraph.com/)、 [StackBlitz](https://stackblitz.com/) |                                          |                                          |
+| JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |                                          |
+| 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |                                          |
+| 构建工具                        | [Parcel](https://github.com/parcel-bundler/parcel)、Webpack、NPM Scripts、Rollup、Gulp、Browserify、Brunch、Grunt | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) | 如果需要代码分割，或者有很多的静态资产，或者正在构建一些有很多CommonJS依赖的东西，Webpack是更好的选择。如果代码库是ES2015模块，并且您正在为其他人使用某些内容，则可能需要Rollup。——取自《[Webpack and Rollup: the same but different](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)》 |
+| WebPack 插件                  |                                          | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |                                          |
+| Babel                       |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |                                          |
+| CSS 转换                      |                                          | node-sass                                |                                          |
+| 多package.json 管理            | [Lerna](https://lernajs.io/)             |                                          |                                          |
+| 包管理                         | [pnpm](https://github.com/pnpm/pnpm)、NPM、Yarn | tnpm                                     |                                          |
+| 依赖可视化工具                     | [Webpack Visualizer](https://github.com/chrisbateman/webpack-visualizer)、[Webpack Chart](https://github.com/alexkuz/webpack-chart)、[robertknight/webpack-bundle-size-analyzer](robertknight/webpack-bundle-size-analyzer)、[stats-webpack-plugin](https://github.com/unindented/stats-webpack-plugin/)、   [webpack-analyse](http://webpack.github.io/analyse)、 | [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer) |                                          |
+| 监控 Node.js 项目依赖             | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |                                          |
+| 代码静态检查                      |                                          | eslint                                   |                                          |
+| 端到端测试                       | [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome)、[Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) | jasmine-core、 karma（ karma-chrome-launcher、 karma-jasmine、 karma-sourcemap-loader、 karma-webpack） |                                          |
+| 单元测试                        | [AVA](https://github.com/avajs/ava)、Mocha+Chai+Sinon | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme)、 react-addons-test-utils、 react-test-renderer |                                          |
+| 代码覆盖率工具                     | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |                                          |
+| 将测试结果可视化                    | Codecov                                  |                                          |                                          |
+| 持续集成                        | Travis CI                                |                                          |                                          |
+| 性能测试（页面响应时间、压测）             | loadrunner、jmeter                        |                                          |                                          |
+| 静态Web服务器                    | [http-server](https://github.com/indexzero/http-server) |                                          |                                          |
+| 静态api                       | [json-server](https://github.com/typicode/json-server) |                                          |                                          |
+| 抓包和本地替换Web调试                | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |                                          |
+| 嵌入式数据库                      | [NeDB](https://github.com/louischatriot/nedb) |                                          |                                          |
+| Node.js 调试                  | [Node Inspector](https://github.com/node-inspector/node-inspector)、[debug](https://github.com/visionmedia/debug) |                                          |                                          |
+| PC Web调试                    | Chrome（扩展[Advanced REST Client](https://github.com/jarrodek/ChromeRestClient)、FE助手等）、Firefox | [redux-logger](https://github.com/evgenyrodionov/redux-logger)（redux-devtools-log-monitor）、redux-devtools（ redux-devtools-dock-monitor、）[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |                                          |
+| WebView和浏览器调试               | [DebugGap](http://www.debuggap.com/)     |                                          |                                          |
+| 预览响应式网页                     | [Sizzy](http://sizzy.co/)                |                                          |                                          |
+| Git hook                    |                                          | [pre-commit](https://github.com/observing/pre-commit)、 [lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky) |                                          |
+| 部署                          | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |                                          |
+| 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)       |                                          |                                          |
 
 ### Mac或Linux系
 
@@ -474,23 +475,25 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 工具
 
-1. [有没有人开发自我监测统计软件？](https://www.zhihu.com/question/23892513)
-2. [VS Code](http://www.cnblogs.com/zhaoqingqing/p/vscode.html)：把vs code的数据托管在github的gist服务器
-3. [Fun with Codemod & AST](http://zhangbinliu.me/fun-with-codemod-and-ast/)
-4. [vim-web](https://github.com/jaywcjlove/vim-web)
-5. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
-6. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
-7. [什么是phantomJS？](http://div.io/topic/1413)
-8. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
-9. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
-10. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
-11. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
-12. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
-13. [commandlinefu](http://www.commandlinefu.com/)
-14. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
-15. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
-16. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
-17. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
-18. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
-19. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
-20. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
+1. [Webpack and Rollup: the same but different]()
+2. [有没有人开发自我监测统计软件？](https://www.zhihu.com/question/23892513)
+3. [VS Code](http://www.cnblogs.com/zhaoqingqing/p/vscode.html)：把vs code的数据托管在github的gist服务器
+4. [Fun with Codemod & AST](http://zhangbinliu.me/fun-with-codemod-and-ast/)
+5. [vim-web](https://github.com/jaywcjlove/vim-web)
+6. [Mac自带的Vim怎么升级](https://www.zhihu.com/question/34113076)
+7. [Chromium命令行启动参数](https://code.google.com/archive/p/xiaody/wikis/ChromiumCommandLineSwitches.wiki)
+8. [什么是phantomJS？](http://div.io/topic/1413)
+9. [mac 下安装运行 redis](http://yijiebuyi.com/blog/d8ab4b444c16f42cefe30df738a42518.html)
+10. [文本三巨头：zsh、tmux 和 vim](http://blog.jobbole.com/86571/)
+11. [让Git的输出更友好: 多种颜色和自定义log格式](https://www.pureweber.com/article/git-pretty-output/)
+12. [Tmux使用方法](http://www.sbloger.com/blog/2013/07/09/about-tmux.html)
+13. [终极 Shell——ZSH](http://zhuanlan.zhihu.com/mactalk/19556676)
+14. [commandlinefu](http://www.commandlinefu.com/)
+15. [curl 命令使用](http://www.cnblogs.com/wangkangluo1/archive/2012/04/17/2453975.html)
+16. [Git 常用命令速查表](http://blog.csdn.net/sunboy_2050/article/details/7529841)
+17. [为什么 Linux 的 htop 命令完胜 top 命令](https://linux.cn/article-3141-1.html)
+18. [前端开源项目持续集成三剑客](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484019&idx=1&sn=d674a16e56e4d503da8aabf8225a5387)
+19. [高效率、低风险，一键发布并测试的持续集成工具Jenkins](https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&mid=2247487210&idx=1&sn=1e6a33b871ff6384ee618fd6308085a8)
+20. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
+21. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
+22. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
