@@ -40,7 +40,9 @@
 >
 > 利益相关者：发起方、项目经理（PM）、产品（PD）、交互（UX）、视觉（UI）、前端（FE）和后端
 >
-> 最佳实践的3个平台：PRD和Demo分享平台；整合了Sketch、图标库、可输出npm包和（SVG格式）设计稿分发的 Living Style Guide 平台；需求和缺陷跟踪平台
+> 最佳实践:
+> 3个平台，PRD和Demo分享平台；整合了Sketch、图标库、可输出npm包和（SVG格式）设计稿分发的 Living Style Guide 平台；需求和缺陷跟踪平台
+> 组件化的设计、开发；沉浸式页面交互
 
 - 项目管理方式：Agile Project Management（Scrum、Kanban、XP、Lean）、PMP
 - 时间管理：[RescueTime](https://www.rescuetime.com/)
