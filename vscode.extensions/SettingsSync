@@ -1,0 +1,35 @@
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 2.9.0
+--------------------
+GitHub Token: 2207dae99627cd3c39729e60f1f34327036c3284
+GitHub Gist: 3127616ac963aad66f9a573bd340acb9
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+  keybindings.json > keybindingsMac.json
+  typescript.json > snippets|typescript.json
+
+  Extensions Removed:
+
+Extensions Added:
+  beautify v1.3.0
+  code-settings-sync v2.9.0
+  dependency-cleaner v1.0.4
+  EditorConfig v0.12.1
+  file-icons v1.0.12
+  gitlens v8.2.0
+  npm-intellisense v1.3.0
+  prettier-vscode v1.2.2
+  stylelint v0.36.0
+  swag v0.1.1
+  ts-deporter v1.0.2
+  tslint v1.0.28
+  vscode-ava-runner v0.0.3
+  vscode-babel-coloring v0.0.4
+  vscode-i18n-linter v0.3.5
+  vscode-npm-script v0.3.3
+  vscode-wakatime v1.2.0
+--------------------
+Done.
