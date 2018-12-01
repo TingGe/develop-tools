@@ -266,27 +266,88 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 
 ### 数据结构与算法
 
+#### 数据结构
+
+[数据结构可视化](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+1. 图：// Todo
+2. Trie树（又称“字典树”）
+3. 数组（[随机打乱一维数组](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/index.html)、[多数问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/candidate.html)、[分治法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/binarysearch.html)）
+4. [栈](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/stack)（判断是否回文、实现十进制转其它进制、阶乘）
+5. [队列](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/queue)（优先队列）
+6. [链表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/list)（双向链表、单向链表、已排序的双向链表）
+7. 树
+8. 图（[“邻接表”，深度优先搜索和广度优先搜索](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/adjacencylist)）
+9. 堆
+10. [散列表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/hashtable)（线性探测、判断字符串中出现次数最多的字符）
+11. [利用对象属性](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/object_prop)（字符串比较、带记忆的函数）
+12. [字典类](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/dictionary.html)
+13. 贪心解法（[部分背包问题](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/knapsack)、[找零问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/greedymoney.html)）
+14. [动态规划解法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/dynamic_programming)（0-1背包问题、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/dynfib.js)）
+15. 递归解法（[0-1背包问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/recursive.html)、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)、阶乘）
+16. [使用矩阵](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/findmaxsubstr.html)（求公共字符串问题）
+17. 迭代（[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)）
+18. [生成 UUID](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Math.uuid.js)
+19. [输出螺旋矩形算法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/helix.html)
+20. [穷举法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/exhaustive)（鸡兔同笼、韩信点兵、“剪枝”）
+21. [Base64](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Base64.html)
+22. [MD5](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/md5.html)
+23. [SHA-1](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/sha1.html)
+
 #### 算法与高级编程语言的关系
 
 算法在高级语言发展了很多年之后，更多地被封装成了独立的函数或者独立的类，开放接口供人调用，然而算法封装得再好也是不能不假思索地使用就能获益的东西，要知道，这些封装只是在一定程度上避免了重复发明轮子而已。
 
-举个实例：JavaScript中数组的sort方法的排序算法，在默认情况下，是由浏览器而不是JavaScript底层决定的。Chrome的JavaScript引擎**v8**，采用不稳定的快速排序算法（看[源代码](https://github.com/v8/v8/blob/master/src/js/array.js#L755)）；Microsoft Edge的JavaScript引擎**Chakra**，采用不稳定的快速排序算法（看[源代码](https://github.com/Microsoft/ChakraCore/blob/master/lib/Common/DataStructures/QuickSort.h)）；Firefox的JavaScript引擎**SpiderMoney**，采用稳定的归并排序算法（[相关Bug讨论](https://bugzilla.mozilla.org/show_bug.cgi?id=715181)）。
+举个实例：
 
-《孙子兵法·作战篇》有云，“不尽知用兵之害者，则不能尽知用兵之利”，意思是说，不对用兵打仗的坏处与弊端进行充分了解同样不可能对用兵打仗的好处有足够的认识。算法的应用是一个辩证的过程，不仅在于不同算法间的比较和搭配使用有着辩证关系，在同一个算法中，不同的参数和阈值设置同样会带来大相径庭的结果，甚至影响数据解读的科学性。这一点请大家务必有所注意。
+JavaScript中数组的sort方法的排序算法，在默认情况下，是由浏览器而不是JavaScript底层决定的。
 
-#### 算法正文
+| 浏览器                   | 使用的 JavaScript 引擎   | 排序算法                                                     | 源码地址                                                     |
+| ------------------------ | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Google Chrome            | V8                       | 长度 `<= 10` 的数组使用的是**稳定的插入排序（InsertionSort）** ，`>10` 的数组使用的是**不稳定的快速排序（QuickSort）**。 | [`sort` 源码实现](https://github.com/v8/v8/blob/master/src/js/array.js#L768) |
+| Mozilla Firefox          | SpiderMonkey             | **稳定的归并排序（mergeSort）**                              | [`sort` 源码实现](https://github.com/mozilla/gecko-dev/blob/master/js/src/builtin/Array.js) |
+| Safari                   | Nitro（JavaScriptCore ） | 默认使用的**桶排序（bucketSort）**，如果 `sort` 传入的自定义函数作为参数，就是用**稳定的归并排序（mergeSort）** | [`sort` 源码实现](https://github.com/WebKit/webkit/blob/master/Source/JavaScriptCore/builtins/ArrayPrototype.js#L423) |
+| Microsoft Edge 和 IE(9+) | Chakra                   | **不稳定的快速排序算法（QuickSort）**                        | [`sort` 源码实现](https://github.com/Microsoft/ChakraCore/blob/master/lib/Common/DataStructures/QuickSort.h) |
+
+#### 各种算法的对比
 
 > 经典的有：8大排序算法和4大查找算法。
 
-[数据结构可视化](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+##### 排序
 
-排序：直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
+直接插入、希尔排序，[直接选择](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/selection_sort.html)、堆排序，[冒泡排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/bubble_sort.html)、[快速排序](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/canvas/quicksort.html)，归并排序，基数排序。
 
-[8大排序算法 JS 示例](https://github.com/TingGe/develop-tools/blob/master/algorithm.md)
+| 排序类型 | 平均情况 | 最好情况 | 最坏情况 | 辅助空间 | 稳定性   |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| 快速排序 | O(nlogn) | O(nlogn) | O(n²)    | O(nlogn) | 不稳定   |
+| 归并排序 | O(nlogn) | O(nlogn) | O(nlogn) | O(n)     | 稳定     |
+| 插入排序 | O(n²)    | O(n)     | O(n²)    | O(1)     | 稳定     |
+| 桶排序   | O(n+k)   | O(n+k)   | O(n²)    | O(n+k)   | (不)稳定 |
 
 ![8大排序算法](./img/sorting-algorithm.png)
 
-查找：顺序查找、快速（折半）查找、分块查找和散列表
+注: 桶排序的稳定性取决于桶内排序的稳定性，因此其稳定性不确定。
+
+**常用的时间复杂度所耗费的时间从小到大依次是**
+
+O(1) < O(logn) < O(n) < O(nlogn) < O(n²) < O(n³) < O(2^n) < O(n!) < O(n^n)
+
+算法时间复杂度**
+
+```
+在进行算法分析时，语句总的执行次数T(n)是关于问题规模n的函数，
+进而分析T(n)随着n的变化情况并确定T(n)的数量级。
+算法的时间复杂度，也就是算法的时间度量，记作：T(n)=O(f(n))。
+它表示随问题规模n的增大，算法执行时间的增长率和f(n)的增长率相同，
+称作算法的时间复杂度，简称为时间复杂度。
+其中f(n)是问题规模n的某个函数。
+```
+
+[8大排序算法 JS 示例](https://github.com/TingGe/develop-tools/blob/master/algorithm.md)
+
+##### 查找
+
+顺序查找、快速（折半）查找、分块查找和散列表
 
 |        | 平均查找长度（ n=节点数，分b块，s=n/b）                 | 查找效率 |
 | :----- | ---------------------------------------- | ---- |
@@ -294,36 +355,6 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | 快速（折半） | Log2(n+1)-1                              | 高    |
 | 分块     | (分块查找索引表)平均查找长度=Log2(n/s+1)+s/2；(顺序查找索引表)平均查找长度=(S2+2S+n)/(2S) | 中    |
 | 散列表    | 1                                        | 直接寻址 |
-
-图：// Todo
-
-#### 其它
-
-1. Trie树（又称“字典树”）
-
-#### 示例
-
-1. 数组（[随机打乱一维数组](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/index.html)、[多数问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/candidate.html)、[分治法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/array/binarysearch.html)）
-2. [栈](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/stack)（判断是否回文、实现十进制转其它进制、阶乘）
-3. [队列](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/queue)（优先队列）
-4. [链表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/list)（双向链表、单向链表、已排序的双向链表）
-5. 树
-6. 图（[“邻接表”，深度优先搜索和广度优先搜索](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/adjacencylist)）
-7. 堆
-8. [散列表](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/hashtable)（线性探测、判断字符串中出现次数最多的字符）
-9. [利用对象属性](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/object_prop)（字符串比较、带记忆的函数）
-10. [字典类](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/dictionary.html)
-11. 贪心解法（[部分背包问题](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/knapsack)、[找零问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/greedymoney.html)）
-12. [动态规划解法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/dynamic_programming)（0-1背包问题、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/dynfib.js)）
-13. 递归解法（[0-1背包问题](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/recursive.html)、[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)、阶乘）
-14. [使用矩阵](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/findmaxsubstr.html)（求公共字符串问题）
-15. 迭代（[计算斐波那契数列](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/fibonacci/iterfib.js)）
-16. [生成 UUID](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Math.uuid.js)
-17. [输出螺旋矩形算法](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/helix.html)
-18. [穷举法](https://github.com/TingGe/knowledge/tree/master/javascript/others/javascript.algorithms/exhaustive)（鸡兔同笼、韩信点兵、“剪枝”）
-19. [Base64](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/Base64.html)
-20. [MD5](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/md5.html)
-21. [SHA-1](https://github.com/TingGe/knowledge/blob/master/javascript/others/javascript.algorithms/sha1.html)
 
 ### 工具
 
@@ -356,7 +387,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | 代码覆盖率工具                     | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
 | 将测试结果可视化                    | Codecov                                  |                                          |
 | 持续集成                        | Travis CI                                |                                          |
-| 性能测试（页面响应时间、压测）             | loadrunner、jmeter                        |                                          |
+| 性能测试（页面响应时间、压测）             | loadrunner、jmeter、 WebPagetest、 Yslow                        |                                          |
 | 静态Web服务器                    | [http-server](https://github.com/indexzero/http-server) |                                          |
 | 静态api                       | [json-server](https://github.com/typicode/json-server) |                                          |
 | 抓包和本地替换Web调试                | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
@@ -368,6 +399,15 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | Git hook                    |                                          | [pre-commit](https://github.com/observing/pre-commit)、 [lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky) |
 | 部署                          | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
 | 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)       |                                          |
+
+#### 性能测试工具
+
+这些性能测试工具，使用了量化的方式测试了网站中诸如首字节加载时间（time to first byte）或者渲染时间等表现。有些工具还会检查特别检查资源是否被缓存，多个 CSS 或 JS 文件是否值得合并。
+
+| 工具               | 特点                                       |
+| ---------------- | ---------------------------------------- |
+| WebPagetest      | 通过使用 API wrapper，也可以将 WebPagetest 的相关服务添加到 NPM 模块和命令行工具中。webpagetest-mapper 将 WebPageTest 的测试数据转换为可读的文档格式 |
+| Google PageSpeed | PageSpeed 也有一个 CLI 工具：PSI(PageSpeed Insights with reporting)在构建进程中，可以使用 PSI 测试移动端和桌面端的性能，最终得到可读性良好的测试结果 |
 
 ### Mac或Linux系
 
@@ -439,6 +479,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 17. [sass、less和stylus的安装使用和入门实践](http://caibaojian.com/sass-less-stylus.html)
 18. [PostCSS深入学习: PostCSS和Sass、Stylus或LESS一起使用](http://www.w3cplus.com/PostCSS/using-postcss-together-with-sass-stylus-or-less.html)
 19. [聊聊前端排序的那些事](http://efe.baidu.com/blog/talk-about-sort-in-front-end/)
+20. [深入浅出 JavaScript 的 Array.prototype.sort 排序算法](https://segmentfault.com/a/1190000010648740)
 
 ### 工具
 
@@ -462,3 +503,4 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 18. [一个靠谱的前端开源项目需要什么？](https://mp.weixin.qq.com/s?__biz=MzI2NzExNTczMw==&mid=2653284934&idx=1&sn=af82495f35adea9b919e27a20749145e)
 19. [使用shipit-deploy实现自动化的多服务器部署](https://mp.weixin.qq.com/s/-MVmT6UKfnIeZXh5FaPs1w)
 20. [和 Charles 同样强大的 iOS 免费抓包工具 mitmproxy](http://www.jianshu.com/p/6efd7f43e581)
+21. [Web开发的各种性能工具](https://maimai.cn/article/detail?fid=88499355)
