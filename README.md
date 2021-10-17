@@ -60,6 +60,7 @@
 - 会议与头脑风暴：[Draw.io](https://www.draw.io/)、[MindMup](https://www.mindmup.com/)、[百度脑图](http://naotu.baidu.com/)、[ProcessOn](https://www.processon.com/)、MindNode、XMind、Mindjet MindManager
 - 前后端接口约定：[Swagger](https://github.com/swagger-api/swagger-codegen)、[Slate](https://github.com/lord/slate)、Rap
 - 接口对比验证：[Diffy](https://github.com/twitter/diffy)
+- 私有npm仓库搭建：[Verdaccio](https://verdaccio.org/)轻量零配置，[Nexus3](https://github.com/sonatype/nexus-public)支持npm和Java、较大包
 
 ## 研发
 
@@ -116,8 +117,8 @@
 
 JavaScript 在经历端的融合、栈的融合阶段。JavaScript 可以做很多事情：从前端到全栈，从桌面到移动、物联网，从应用到游戏。然而，其在大数据、高强度计算等等这些考验性能和执行效率的场景并不适用。
 
-| 应用领域         | 技术栈                                                       |
-| ---------------- | ------------------------------------------------------------ |
+| 应用领域 | 技术栈 |
+| -------- | ------ |
 | 全栈 JavaScript  | [React Starter Kit](https://github.com/kriasoft/react-starter-kit)
 | 服务器端         | [MidwayJS](https://midwayjs.org/)、[Nest](https://github.com/nestjs/nest)                                                       |
 | 浏览器插件和扩展 | 见 [Extensions和Bookmarklet](https://github.com/TingGe/chrome-extensions/blob/master/README.md) |
@@ -156,7 +157,7 @@ JavaScript 编译器原理同 JavaScript 引擎类似，区别是转换后还是
 | [Closure Compiler](https://developers.google.com/closure/compiler/) | Google 的 JavaScript 代码优化工具                            |
 | [Babel](https://babeljs.io/)（含 [Babylon](https://github.com/babel/babylon)、[babel-traverse](https://www.npmjs.com/package/babel-traverse)、[babel-generator](https://www.npmjs.com/package/babel-generator) ） | ES6 转 ES5                                                   |
 | [Lebab](https://lebab.io/)                                   | ES5 转 ES6                                                   |
-| TypeScript 的 tsc                                            | `tsc` 是 TypeScript 转译的命令，用于转换为 JavaScript        |
+| TypeScript 的 tsc                                            | `tsc` 是 TypeScript 转译的命令，用于转换为 JavaScript        |
 
 ### 软件设计模式
 
@@ -402,44 +403,44 @@ O(1) < O(logn) < O(n) < O(nlogn) < O(n²) < O(n³) < O(2^n) < O(n!) < O(n^n)
 - 开发流程：dev、debug、proxy、build、deploy
 - 周边工具：图形化界面、命令行辅助、自动化工程
 
-| 分类                          | 内容                                       | React系                                   |
-| --------------------------- | ---------------------------------------- | ---------------------------------------- |
-| 开发工具                        | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可）、[reactide](https://github.com/reactide/reactide) | Visual Studio Code                  |
-| JavaScript 代码风格             | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                          |
-| 重构工具                        |                                          | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
-| 构建工具                        | NPM Scripts、Webpack、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
-| WebPack 插件                  |                                          | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |
-| Babel                       |                                          | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
-| CSS 转换                      |                                          | node-sass                                |
-| 多package.json 管理            | [Lerna](https://lernajs.io/)             |                                          |
-| 包管理                         | [pnpm](https://github.com/pnpm/pnpm)、NPM、Yarn | tnpm                                     |
-| 依赖可视化工具                     | [Webpack Visualizer](https://github.com/chrisbateman/webpack-visualizer)、[Webpack Chart](https://github.com/alexkuz/webpack-chart)、[robertknight/webpack-bundle-size-analyzer](robertknight/webpack-bundle-size-analyzer)、[stats-webpack-plugin](https://github.com/unindented/stats-webpack-plugin/)、   [webpack-analyse](http://webpack.github.io/analyse)、 | [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer) |
-| 监控 Node.js 项目依赖             | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                          |
-| 代码静态检查                      |                                          | eslint                                   |
-| 端到端测试                       | [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome)、[Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) | jasmine-core、 karma（ karma-chrome-launcher、 karma-jasmine、 karma-sourcemap-loader、 karma-webpack） |
-| 单元测试                        | [AVA](https://github.com/avajs/ava)、Mocha+Chai+Sinon | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme)、 react-addons-test-utils、 react-test-renderer |
-| 代码覆盖率工具                     | [Istanbul](https://github.com/gotwarlost/istanbul) |                                          |
-| 将测试结果可视化                    | Codecov                                  |                                          |
-| 持续集成                        | Travis CI                                |                                          |
-| 性能测试（页面响应时间、压测）             | loadrunner、jmeter、 WebPagetest、 Yslow                        |                                          |
-| 静态Web服务器                    | [http-server](https://github.com/indexzero/http-server) |                                          |
-| 静态api                       | [json-server](https://github.com/typicode/json-server) |                                          |
-| 抓包和本地替换Web调试                | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                          |
-| 嵌入式数据库                      | [NeDB](https://github.com/louischatriot/nedb) |                                          |
-| Node.js 调试                  | [Node Inspector](https://github.com/node-inspector/node-inspector)、[debug](https://github.com/visionmedia/debug) |                                          |
-| PC Web调试                    | Chrome（扩展[Advanced REST Client](https://github.com/jarrodek/ChromeRestClient)、FE助手等）、Firefox | [redux-logger](https://github.com/evgenyrodionov/redux-logger)（redux-devtools-log-monitor）、redux-devtools（ redux-devtools-dock-monitor、）[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
-| WebView和浏览器调试               | [DebugGap](http://www.debuggap.com/)     |                                          |
-| 预览响应式网页                     | [Sizzy](http://sizzy.co/)                |                                          |
-| Git hook                    |                                          | [pre-commit](https://github.com/observing/pre-commit)、 [lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky) |
-| 部署                          | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                          |
-| 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)       |                                          |
+| 分类                                           | 内容                                                         | React系                                                      |
+| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 开发工具                                       | [Visual Studio Code](https://github.com/Microsoft/vscode/)、[Atom](https://atom.io/) （安装 Config Import Export ，导入本仓库 AtomBackups 的 json 即可）、[reactide](https://github.com/reactide/reactide) | Visual Studio Code                                           |
+| JavaScript 代码风格                            | [Standard Style](https://github.com/feross/standard) , [Semi-Standard Style](https://github.com/Flet/semistandard) or [Happiness Style](https://github.com/jedwatson/happiness) |                                                              |
+| 重构工具                                       |                                                              | [jscodeshift](http://zhangbinliu.me/fun-with-codemod-and-ast/) |
+| 构建工具                                       | NPM Scripts、Webpack、Rollup、Gulp、Browserify、Brunch、Grunt、 | [Webpack](https://webpack.github.io/)、[extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) |
+| WebPack 插件                                   |                                                              | webpack-dev-server、json-loader、 file-loader、 url-loader、 css-loader |
+| Babel                                          |                                                              | babel-core、 babel-eslint、 babel-loader、babel-plugin-import、 babel-plugin-import-asserts、 babel-plugin-transform-decorators-legacy、 babel-preset-es2015、 babel-preset-react、 babel-preset-stage-0、 |
+| CSS 转换                                       |                                                              | node-sass                                                    |
+| 多package.json 管理                            | [Lerna](https://lernajs.io/)                                 |                                                              |
+| 包管理                                         | [pnpm](https://github.com/pnpm/pnpm)、NPM、Yarn              | tnpm                                                         |
+| 依赖可视化工具                                 | [Webpack Visualizer](https://github.com/chrisbateman/webpack-visualizer)、[Webpack Chart](https://github.com/alexkuz/webpack-chart)、[robertknight/webpack-bundle-size-analyzer](robertknight/webpack-bundle-size-analyzer)、[stats-webpack-plugin](https://github.com/unindented/stats-webpack-plugin/)、   [webpack-analyse](http://webpack.github.io/analyse)、 | [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer) |
+| 监控 Node.js 项目依赖                          | [updtr](https://github.com/peerigon/updtr)、[greenkeeper](https://github.com/greenkeeperio/greenkeeper) |                                                              |
+| 代码静态检查                                   |                                                              | eslint                                                       |
+| 端到端测试                                     | [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome)、[Protractor](http://www.protractortest.org/)、[Capybara](https://github.com/jnicklas/capybara)、[VCR](https://github.com/vcr/vcr)、[PhantomJS](http://phantomjs.org/)、[CasperJS](https://casperjs.org/)、[Selenium](http://www.seleniumhq.org/) | jasmine-core、 karma（ karma-chrome-launcher、 karma-jasmine、 karma-sourcemap-loader、 karma-webpack） |
+| 单元测试                                       | [AVA](https://github.com/avajs/ava)、Mocha+Chai+Sinon        | [[Jest](https://github.com/facebook/jest)、Enzyme](https://github.com/airbnb/enzyme)、 react-addons-test-utils、 react-test-renderer |
+| 代码覆盖率工具                                 | [Istanbul](https://github.com/gotwarlost/istanbul)           |                                                              |
+| 将测试结果可视化                               | Codecov                                                      |                                                              |
+| 持续集成                                       | Travis CI                                                    |                                                              |
+| 性能测试（页面响应时间、压测）                 | loadrunner、jmeter、 WebPagetest、 Yslow                     |                                                              |
+| 静态Web服务器                                  | [http-server](https://github.com/indexzero/http-server)      |                                                              |
+| 静态api                                        | [json-server](https://github.com/typicode/json-server)       |                                                              |
+| 抓包和本地替换Web调试                          | [Anyproxy](https://github.com/alibaba/anyproxy)、Wireshark、[Charles](https://www.charlesproxy.com/)、[mitmproxy](https://mitmproxy.org/) |                                                              |
+| 嵌入式数据库                                   | [NeDB](https://github.com/louischatriot/nedb)                |                                                              |
+| Node.js 调试                                   | [Node Inspector](https://github.com/node-inspector/node-inspector)、[debug](https://github.com/visionmedia/debug) |                                                              |
+| PC Web调试                                     | Chrome（扩展[Advanced REST Client](https://github.com/jarrodek/ChromeRestClient)、FE助手等）、Firefox | [redux-logger](https://github.com/evgenyrodionov/redux-logger)（redux-devtools-log-monitor）、redux-devtools（ redux-devtools-dock-monitor、）[Chrome Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)、[React Developer Tools](https://github.com/facebook/react-devtools) |
+| WebView和浏览器调试                            | [DebugGap](http://www.debuggap.com/)                         |                                                              |
+| 预览响应式网页                                 | [Sizzy](http://sizzy.co/)                                    |                                                              |
+| Git hook                                       |                                                              | [pre-commit](https://github.com/observing/pre-commit)、 [lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky) |
+| 部署                                           | [pm2](http://pm2.keymetrics.io/)、[forever](https://github.com/foreverjs/forever)、[nodemon](https://github.com/remy/nodemon)、[node-supervisor](https://github.com/petruisfan/node-supervisor)、[shipit-deploy](https://github.com/shipitjs/shipit-deploy) |                                                              |
+| 打包Node.js项目为单个可执行文件,发布商业级应用 | [pkg](https://github.com/zeit/pkg)                           |                                                              |
 
 #### 性能测试工具
 
 这些性能测试工具，使用了量化的方式测试了网站中诸如首字节加载时间（time to first byte）或者渲染时间等表现。有些工具还会检查特别检查资源是否被缓存，多个 CSS 或 JS 文件是否值得合并。
 
-| 工具               | 特点                                       |
-| ---------------- | ---------------------------------------- |
+| 工具             | 特点                                                         |
+| ---------------- | ------------------------------------------------------------ |
 | WebPagetest      | 通过使用 API wrapper，也可以将 WebPagetest 的相关服务添加到 NPM 模块和命令行工具中。webpagetest-mapper 将 WebPageTest 的测试数据转换为可读的文档格式 |
 | Google PageSpeed | PageSpeed 也有一个 CLI 工具：PSI(PageSpeed Insights with reporting)在构建进程中，可以使用 PSI 测试移动端和桌面端的性能，最终得到可读性良好的测试结果 |
 
