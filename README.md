@@ -49,7 +49,7 @@
 - 协调团队间工作：[ZenHub](https://www.zenhub.com/)、[Trello](https://trello.com/)、[Slack](https://slack.com/)、[Redmine](http://www.redmine.org/projects/redmine/wiki/Download)（需求过程管理）、[Confluence](https://www.atlassian.com/software/confluence)（需求内容管理）teambition、Gantter、HackPad、Mantis
 - 任务排期：[OmniPlan](https://www.omnigroup.com/omniplan)、[Microsoft Project](https://products.office.com/en-us/project/project-and-portfolio-management-software)
 - PRD 协作和分享平台：OmniGraffle
-- 交互稿：Sketch + [Marketch](https://github.com/tudou527/marketch)
+- 交互稿：Sketch + [Marketch](https://github.com/tudou527/marketch)、 [Penpot](https://github.com/penpot/penpot)、[Figma](https://www.figma.com)
 - 原型：Axure、[Fuse](https://www.fusetools.com/)、[Pencil](https://github.com/evolus/pencil)
 - Living Style Guide平台：[getstorybook](https://getstorybook.io/)（支持React Native）、[Styleguide](https://github.com/hugeinc/styleguide/)、Styleguide
 - 图标库：[CSSIcon](https://github.com/wentin/cssicon)、[阿里巴巴矢量图标库](http://iconfont.cn/)、[icons8 animated icons](https://github.com/icons8/titanic)、[Feather](https://feathericons.com/)
@@ -402,6 +402,10 @@ O(1) < O(logn) < O(n) < O(nlogn) < O(n²) < O(n³) < O(2^n) < O(n!) < O(n^n)
 - 资源管理：模块化、组件化、依赖管理等
 - 开发流程：dev、debug、proxy、build、deploy
 - 周边工具：图形化界面、命令行辅助、自动化工程
+
+- AI编程工具：[vscodium](https://github.com/VSCodium/vscodium) + [continue](https://github.com/continuedev/continue) + [ollama](https://github.com/ollama/ollama) 、 [Cursor](https://cursor.com/)
+
+
 
 | 分类                                           | 内容                                                         | React系                                                      |
 | ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
